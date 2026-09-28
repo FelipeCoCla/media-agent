@@ -76,7 +76,7 @@
 ### 🔹 Día 7: *The Delivery & The 3-Pillar Portfolio Expansion (The Pet Care Mandate)*
 - **Premisa**: Revisan la entrega de Sofia (LUMEN), celebran la calidad hiperrealista, pero Vector exige diversificar el portafolio en 3 pilares comerciales clave antes de salir a Upwork: **Beauty & Skincare**, **Pet Care & Nutrition** (la prioridad estratégica de Vector: mercado de $80B) y **Performance Wellness**.
 - **Ubicación**: [`100 days Challenge/Day 7/video_production.md`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%207/video_production.md).
-- **Duración**: 30s. **Estado: GUION & PROMPTS LISTOS**.
+- **Duración**: 40s (4 generaciones de 10s). **Estado: GUION & PROMPTS LISTOS**.
 
 ---
 
