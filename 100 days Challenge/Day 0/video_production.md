@@ -27,7 +27,7 @@
 ---
 
 ## ⏱️ 3. Scene Breakdown & Synchronized Voiceover (`video-scene-specifier`)
-*Total Runtime: 30 seconds (3 modular generations of 10 seconds in vertical 9:16 format)*  
+*Total Runtime: 40 seconds (4 modular generations of 10 seconds in vertical 9:16 format)*  
 *Pacing Standard: Máximo 12–15 palabras por generación de 10s para ritmo natural y pausas.*
 
 ### 🔹 Generation 1 (0:00 - 0:10): The Hook & The Absurd Premise (20 words)
@@ -40,23 +40,33 @@ Vertical 9:16 frame, 35mm prime lens with f/1.8 shallow depth of field in the mo
 
 ---
 
-### 🔹 Generation 2 (0:10 - 0:20): The Zero-Base Starting Point (15 words)
+### 🔹 Generation 2 (0:10 - 0:20): The Rules & Absolute Zero (15 words)
 **Visual Setting:**
-Continuous vertical 9:16 shot with steady medium framing centered on the obsidian desk. Vector taps the laptop trackpad with his front paw. A luminous 3D holographic telemetry bar materializes in mid-air, displaying an animated liquid progress meter climbing from "$0" to "$10,000/mo MRR" glowing in electric cyan and emerald green. Digital Twin stands beside him, gesturing toward the metrics.
+Continuous vertical 9:16 shot with steady medium framing centered on the obsidian desk. Digital Twin turns toward Vector. Vector sits upright behind his laptop, taps the trackpad with his front paw, looks directly toward the room, and speaks with authoritative discernment. In mid-air, a translucent cyan holographic card materializes displaying "RULE 1: ABSOLUTE ZERO (0 AUDIENCE, 0 CLIENTS)" with glowing neon telemetry borders.
 
 **Voiceover & Dialogue:**
-- **Digital Twin**: *"Starting from scratch. No following, no audience, no clients."* (9 words)
-- **Vector**: *"The 100 days AI video challenge."* (6 words)
+- **Digital Twin**: *"Tell them the rules, Vector."* (5 words)
+- **Vector**: *"Rule one: Absolute zero. Zero followers, zero audience, zero clients."* (10 words)
 
 ---
 
-### 🔹 Generation 3 (0:20 - 0:30): The Live Roadmap & Closing Challenge (16 words)
+### 🔹 Generation 3 (0:20 - 0:30): The Daily Documentation & $10k Goal (16 words)
 **Visual Setting:**
-Vertical 9:16 cinematic frame, 35mm lens with f/1.8 shallow depth of field. Symmetrical medium close-up framing Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan holographic milestone cards orbit slowly in the air. Digital Twin smiles with authentic determination, pointing forward. Vector turns his head sharply directly into the camera lens with absolute executive swagger, gives a firm nod, and delivers the closing hook.
+Dynamic vertical 9:16 shot. Vector gestures toward the floating holographic interface, turning sharply to the lens. A glowing emerald green holographic liquid revenue meter climbs vertically in mid-air from "$0" to "$10,000/mo". Digital Twin gestures toward the progress bar, looking into the camera.
 
 **Voiceover & Dialogue:**
-- **Digital Twin**: *"Road to ten k a month, LIVE."* (7 words)
-- **Vector**: *"Follow the build now... or watch us win without you."* (9 words)
+- **Vector**: *"Document every day: cold outreach, prompts, rejections. Goal: ten k by Day 100."* (12 words)
+- **Digital Twin**: *"All tracked live in public."* (4 words)
+
+---
+
+### 🔹 Generation 4 (0:30 - 0:40): The Outro & Day 0 Out (15 words)
+**Visual Setting:**
+Vertical 9:16 cinematic frame, 35mm lens with f/1.8 shallow depth of field. Symmetrical medium close-up framing Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin smiles with authentic determination, pointing forward. Vector leans slightly forward with supreme CEO swagger, looks directly into the camera lens, gives a firm decisive head nod, and delivers the closing hook.
+
+**Voiceover & Dialogue:**
+- **Digital Twin**: *"Follow now, or watch us win without you."* (8 words)
+- **Vector**: *"This is the beginning. Day zero... out."* (7 words)
 
 ---
 
@@ -74,16 +84,23 @@ A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow dep
 
 ---
 
-### 🎬 Generation 2 (0:10 - 0:20) — The Zero-Base Starting Point (15 words)
+### 🎬 Generation 2 (0:10 - 0:20) — The Rules & Absolute Zero (15 words)
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in the dark luxury studio. Steady medium framing centered on the obsidian desk. Vector taps the laptop trackpad with his front paw, activating a glowing cyan liquid revenue bar climbing from "$0" to "$10,000/mo". Digital Twin stands beside him, gestures toward the holographic projection, and speaks aloud: "Starting from scratch. No following, no audience, no clients." Vector looks up and speaks aloud in his deep voice: "The 100 days AI video challenge." Glowing neon reflections shimmering across the polished black obsidian desk, dark studio background, and crisp synchronized lip delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in the dark luxury studio. Steady medium framing centered on the obsidian desk. Digital Twin turns toward Vector and speaks aloud: "Tell them the rules, Vector." Vector sits upright behind his laptop, taps the trackpad with his front paw, looks directly toward the room, and speaks aloud in a cool authoritative voice: "Rule one: Absolute zero. Zero followers, zero audience, zero clients." In mid-air, a translucent cyan holographic card materializes displaying "RULE 1: ABSOLUTE ZERO (0 AUDIENCE, 0 CLIENTS)" with glowing neon telemetry borders, dark moody backdrop, and crisp synchronized lip delivery.
 ```
 
 ---
 
-### 🎬 Generation 3 (0:20 - 0:30) — The Live Roadmap & Closing Challenge (16 words)
+### 🎬 Generation 3 (0:20 - 0:30) — The Daily Documentation & $10k Goal (16 words)
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Centered symmetrical medium framing: Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin looks into the lens with energetic warmth, points his finger forward, and speaks aloud: "Road to ten k a month, LIVE." Vector turns his head sharply directly into the camera lens with supreme CEO swagger, gives a firm decisive head nod, and delivers the closing hook, speaking aloud: "Follow the build now... or watch us win without you." Atmospheric volumetric lighting, dark moody studio backdrop, and relaxed natural synchronized speech delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Dynamic medium shot centered on Vector and Digital Twin at the obsidian desk. Vector gestures toward the floating holographic interface, turns sharply to the lens, and speaks aloud: "Document every day: cold outreach, prompts, rejections. Goal: ten k by Day 100." A glowing emerald green holographic liquid revenue meter climbs vertically in the air from "$0" to "$10,000/mo". Digital Twin gestures toward the progress bar, looks into the camera, and speaks aloud: "All tracked live in public." Volumetric emerald and cyan light rays reflecting on the black obsidian desk, photorealistic texture, and sharp synchronized speech delivery.
+```
+
+---
+
+### 🎬 Generation 4 (0:30 - 0:40) — The Outro & Day 0 Out (15 words)
+```text
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Centered symmetrical medium framing: Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin looks into the lens with energetic warmth, points his finger forward, and speaks aloud: "Follow now, or watch us win without you." Vector leans slightly forward with supreme CEO swagger, looks directly into the camera lens, gives a firm decisive head nod, and delivers the closing hook, speaking aloud in his cool voice: "This is the beginning. Day zero... out." Atmospheric volumetric lighting, dark moody studio backdrop, and relaxed natural synchronized speech delivery.
 ```
 
 ---
