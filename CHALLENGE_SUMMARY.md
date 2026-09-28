@@ -41,7 +41,7 @@
    - **Máximo 12 a 15 palabras TOTALES** por generación de 10 segundos (~1.5 palabras/s).
    - Si hablan 2 personajes en los mismos 10s: **máximo 6 a 8 palabras por personaje**.
    - Líneas de más de 10-12 palabras requieren una toma/generación individual de 10s.
-   - **Anclaje visual explícito**: Describir siempre a Vector como `Vector, the Miniature Schnauzer dog sitting upright wearing vintage blue denim vest and dark black sunglasses` para evitar que el modelo renderice a dos hombres por error.
+   - **Regla Estricta de Google Flow (No Describir Personajes)**: Los personajes ya están configurados en Google Flow. En prompts de video, nombrarlos **EXCLUSIVAMENTE** como **Vector** y **Digital Twin**, sin describir vestimenta, raza ni accesorios.
 
 ---
 

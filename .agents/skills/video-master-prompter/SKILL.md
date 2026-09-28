@@ -16,9 +16,10 @@ Google Omni se fundamenta en **prosa cinematográfica continua y coherencia fís
 
 ### Las 4 Capas de Prompting de Google Omni:
 
-1. **Anclaje Visual Explícito de Personajes**: 
-   - Describir siempre a Vector como: `Vector, the Miniature Schnauzer dog sitting upright wearing vintage blue denim vest and dark black sunglasses`. NUNCA usar solo el nombre "Vector" a secas, porque el generador de video puede crear a un segundo hombre.
-   - Referirse al creador como: `Digital Twin`.
+1. **Regla Estricta de Google Flow (No Describir Físicamente a los Personajes)**: 
+   - Los personajes están pre-configurados y anclados como modelos en Google Flow.
+   - Nombrarlos **EXCLUSIVAMENTE** como **Vector** y **Digital Twin**.
+   - Queda estrictamente prohibido describir su vestimenta (chaleco de denim, chaqueta), raza (Miniature Schnauzer, dog) o accesorios (lentes oscuros). Describirlos genera conflicto con Google Flow.
 2. **Regla de Oro de Pacing y Diálogos Integrados**:
    - **Límite de Palabras**: Máximo **12 a 15 palabras TOTALES** por generación de 10 segundos (~1.5 palabras/s). Google Omni acelerará, omitirá o cortará palabras si el texto supera 16 palabras.
    - **Diálogo Compartido**: Si hablan 2 personajes en los mismos 10s, **máximo 6 a 8 palabras por personaje**.
@@ -33,7 +34,7 @@ Google Omni se fundamenta en **prosa cinematográfica continua y coherencia fís
 
 ### A. Google Omni / Google Veo (Formato Principal Integrado)
 ```text
-A vertical 9:16 cinematic video shot on a 35mm lens with shallow depth of field in a [Setting description]. At the start, [Camera movement] as [Digital Twin / Vector, the Miniature Schnauzer dog sitting upright wearing vintage blue denim vest and dark black sunglasses action] and speaks aloud: "[Exact dialogue line (6-15 words max)]". Meanwhile, [Second subject reaction and action], turning to the camera and speaking: "[Exact dialogue line]". [Lighting, reflections, and atmosphere details], clear synchronized speech and natural motion physics.
+A vertical 9:16 cinematic video shot on a 35mm lens with shallow depth of field in a [Setting description]. At the start, [Camera movement] as [Digital Twin / Vector action] and speaks aloud: "[Exact dialogue line (6-15 words max)]". Meanwhile, [Second subject reaction and action], turning to the camera and speaking: "[Exact dialogue line]". [Lighting, reflections, and atmosphere details], clear synchronized speech and natural motion physics.
 ```
 
 ### B. Runway Gen-3 Alpha

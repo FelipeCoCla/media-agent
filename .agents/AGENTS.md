@@ -43,7 +43,7 @@ Este espacio de trabajo contiene la configuración del **Stack de Agentes para A
   1. **Límite de Palabras**: Máximo **12 a 15 palabras TOTALES** por generación de 10 segundos (~1.5 palabras/segundo) para pausas naturales y ritmo cinematográfico. Pasar de 16 palabras provoca que Google Omni corte, acelere o atropelle el audio.
   2. **Diálogo de 2 Personajes**: Si hablan dos personajes en la misma toma de 10s, **máximo 6 a 8 palabras por personaje**.
   3. **Tomas Individuales**: Si una línea requiere más desarrollo (10-14 palabras), asignarle una generación/corte individual de 10 segundos (ej. plano medio exclusivo).
-  4. **Anclaje Visual Explícito de Vector**: En el texto del prompt cinematográfico, describir siempre a Vector explícitamente como `Vector, the Miniature Schnauzer dog sitting upright wearing vintage blue denim vest and dark black sunglasses` para evitar que el modelo de video lo confunda y genere a un segundo hombre.
+  4. **Regla Estricta de Google Flow (No Describir Físicamente a los Personajes)**: Los personajes ya están anclados y configurados en Google Flow. En el texto del prompt cinematográfico de Google Omni/Veo, nombrarlos **EXCLUSIVAMENTE** como **Vector** y **Digital Twin**. Queda estrictamente prohibido describir su ropa (chaleco de mezclilla, chaqueta técnica), raza o accesorios (lentes oscuros, botones), ya que Google Flow los ancla automáticamente y sobre-describirlos rompe el modelo.
 
 ---
 
