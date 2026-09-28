@@ -9,24 +9,24 @@
 
 ---
 
-### 🔹 Generation 1 (0:00 - 0:10) — The Hook & The Absurd Premise (15 words)
-**Speech (6s Digital Twin + 3s Vector)**:
-- `Digital Twin: "Can we build a ten k a month AI studio in 100 days?"` *(11 words)*
-- `Vector: "From scratch. Day zero."` *(4 words)*
+### 🔹 Generation 1 (0:00 - 0:10) — The Hook & The Absurd Premise (14 words)
+**Speech (5s Digital Twin + 4s Vector)**:
+- `Digital Twin: "Ten k a month in 100 days?"` *(7 words)*
+- `Vector: "Starting from scratch. No following, no audience."` *(7 words)*
 
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. The camera glides in a smooth gentle dolly push-in toward the glossy black obsidian desk. On the right, Digital Twin in his dark technical jacket looks directly into the camera lens with intense director authenticity and speaks aloud: "Can we build a ten k a month AI studio in 100 days?" On the left, Vector, the Miniature Schnauzer dog sitting upright behind his sleek open laptop wearing his vintage blue denim vest and dark black sunglasses, gives a decisive nod and speaks aloud in a calm deep voice: "From scratch. Day zero." Translucent cyan holographic interface cards float subtly above the desk displaying "$0 / Month", warm amber rim lighting tracing their silhouettes, photorealistic film texture, and relaxed synchronized speech delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. The camera glides in a smooth gentle dolly push-in toward the glossy black obsidian desk. On the right, Digital Twin in his dark technical jacket looks directly into the camera lens with intense director authenticity and speaks aloud: "Ten k a month in 100 days?" On the left, Vector, the Miniature Schnauzer dog sitting upright behind his sleek open laptop wearing his vintage blue denim vest and dark black sunglasses, gives a decisive nod and speaks aloud in a calm deep voice: "Starting from scratch. No following, no audience." Translucent cyan holographic interface cards float subtly above the desk displaying "$0 / Month", warm amber rim lighting tracing their silhouettes, photorealistic film texture, and relaxed synchronized speech delivery.
 ```
 
 ---
 
-### 🔹 Generation 2 (0:10 - 0:20) — The Business Model (15 words)
+### 🔹 Generation 2 (0:10 - 0:20) — The Business Model (14 words)
 **Speech (5s Digital Twin + 4s Vector)**:
-- `Digital Twin: "Ten k in recurring revenue. No one-off gigs."` *(8 words)*
-- `Vector: "Every client dollar reinvested into compute and scale."` *(7 words)*
+- `Digital Twin: "Zero clients. Just pure AI video production."` *(7 words)*
+- `Vector: "Ten k recurring. Every dollar gets reinvested."` *(7 words)*
 
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in the dark luxury studio. Steady medium framing centered on the obsidian desk. Vector, the Miniature Schnauzer dog wearing his vintage denim vest and dark sunglasses, taps the laptop trackpad with his front paw, activating a glowing cyan liquid revenue bar climbing from "$0" to "$10,000/mo". Digital Twin stands beside him, gestures toward the holographic projection, and speaks aloud: "Ten k in recurring revenue. No one-off gigs." Vector looks up with cool authority behind his sunglasses and speaks aloud in his deep voice: "Every client dollar reinvested into compute and scale." Glowing neon reflections shimmering across the polished black obsidian desk, dark studio background, and crisp synchronized lip delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in the dark luxury studio. Steady medium framing centered on the obsidian desk. Vector, the Miniature Schnauzer dog wearing his vintage denim vest and dark sunglasses, taps the laptop trackpad with his front paw, activating a glowing cyan liquid revenue bar climbing from "$0" to "$10,000/mo". Digital Twin stands beside him, gestures toward the holographic projection, and speaks aloud: "Zero clients. Just pure AI video production." Vector looks up with cool authority behind his sunglasses and speaks aloud in his deep voice: "Ten k recurring. Every dollar gets reinvested." Glowing neon reflections shimmering across the polished black obsidian desk, dark studio background, and crisp synchronized lip delivery.
 ```
 
 ---
