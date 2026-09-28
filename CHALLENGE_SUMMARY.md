@@ -5,7 +5,7 @@
 ---
 
 ## 📍 1. Estado Actual del Desafío
-- **Estado Global**: Días 3, 4 y 6 completados y renderizados. Días en buffer listos para publicar a partir del **Día 10**.
+- **Estado Global**: Días 3, 4, 6 y 7 completados y renderizados. Días en buffer listos para publicar a partir del **Día 10**.
 - **Video Anclado Maestro (Pinned Post)**: **Día 0 (The Master Trailer)** diseñado con prompts y keyframes en [`100 days Challenge/Day 0/`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200).
 - **Fase de Historia Activa**: *Construcción del Portafolio de 3 Nichos y Lanzamiento de Propuestas en Upwork ($0 a $10k/mes MRR)*.
 
@@ -35,7 +35,8 @@
 5. **Motion Graphics (`video-motion-graphics` & Remotion)**:
    - Estilo: *Dark Luxury Glassmorphism & Liquid Meters 3D* (Obsidiana, bordes dorados, tubos de líquido fluorescente en Verde Esmeralda, Cian, Ámbar y Púrpura).
    - Arquitectura de 5 capas: `BgMesh` ➔ Contenido ➔ `Grade` ➔ `Grain` ➔ `Vignette`.
-   - Single source of truth en [`src/theme.ts`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/src/theme.ts).
+6. **Sincronización Post-Render (Auditoría de Speech)**:
+   - Cada vez que se renderice el video final de un día (`Rendered/Day X.mp4`), el agente debe transcribir el audio real con Whisper o ffmpeg y reescribir las prompts en `video_production.md` para reflejar con 100% de fidelidad el speech y pacing final generado.
 
 ---
 
@@ -75,8 +76,8 @@
 
 ### 🔹 Día 7: *The Delivery & The 3-Pillar Portfolio Expansion (The Pet Care Mandate)*
 - **Premisa**: Revisan la entrega de Sofia (LUMEN), celebran la calidad hiperrealista, pero Vector exige diversificar el portafolio en 3 pilares comerciales clave antes de salir a Upwork: **Beauty & Skincare**, **Pet Care & Nutrition** (la prioridad estratégica de Vector: mercado de $80B) y **Performance Wellness**.
-- **Ubicación**: [`100 days Challenge/Day 7/video_production.md`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%207/video_production.md).
-- **Duración**: 40s (4 generaciones de 10s). **Estado: GUION & PROMPTS LISTOS**.
+- **Ubicación & Render**: [`100 days Challenge/Day 7/`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%207) — Archivo final en [`Rendered/Day 7.mp4`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%207/Rendered/Day%207.mp4).
+- **Duración**: 43.5s. **Estado: COMPLETADO & RENDERIZADO** (4 prompts sincronizadas con transcripción Whisper).
 
 ---
 

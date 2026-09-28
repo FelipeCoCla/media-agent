@@ -38,6 +38,7 @@ Este espacio de trabajo contiene la configuración del **Stack de Agentes para A
 * **Idioma de Producción**: Contenido y videos en **Inglés**; interacción y soporte con el usuario en **Español**.
 * **Motor de Video por Defecto (Google Omni Only)**: Si el usuario no pide explícitamente una herramienta de video de IA específica (ej. Runway, Kling, Sora), **asumir SIEMPRE y ÚNICAMENTE Google Omni**. No generar prompts para múltiples herramientas a menos que sea solicitado.
 * **Flujo de Trabajo (Storyboard Primero & Diálogo)**: Partir siempre por el desglose del **storyboard** y dialogar/co-diseñar con el usuario las opciones narrativas y ritmos cómicos antes de redactar prompts finales o dar por cerrado el video.
+* **Sincronización Post-Render (Auditoría de Speech)**: Cada vez que el usuario renderice el video final de un día (`Rendered/Day X.mp4`), el agente debe inspeccionar el video, transcribir el audio real generado (con Whisper o ffmpeg) y actualizar `video_production.md` con las prompts definitivas conteniendo el speech y ritmo (*pacing*) exactos usados en la generación.
 
 ---
 
