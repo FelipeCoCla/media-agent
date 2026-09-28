@@ -9,33 +9,33 @@
 
 ---
 
-### 🔹 Generation 1 (0:00 - 0:10) — The Hook & The Absurd Premise (14 words)
-**Speech (5s Digital Twin + 4s Vector)**:
-- `Digital Twin: "Ten k a month in 100 days?"` *(7 words)*
-- `Vector: "Starting from scratch. No following, no audience."` *(7 words)*
+### 🔹 Generation 1 (0:00 - 0:10) — The Hook & The Absurd Premise (20 words)
+**Speech (6s Digital Twin + 3s Vector)**:
+- `Digital Twin: "Can an AI filmmaker and his talking dog make an AI studio business?"` *(13 words)*
+- `Vector: "From zero to ten k a month."` *(7 words)*
 
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. The camera glides in a smooth gentle dolly push-in toward the glossy black obsidian desk. On the right, Digital Twin in his dark technical jacket looks directly into the camera lens with intense director authenticity and speaks aloud: "Ten k a month in 100 days?" On the left, Vector, the Miniature Schnauzer dog sitting upright behind his sleek open laptop wearing his vintage blue denim vest and dark black sunglasses, gives a decisive nod and speaks aloud in a calm deep voice: "Starting from scratch. No following, no audience." Translucent cyan holographic interface cards float subtly above the desk displaying "$0 / Month", warm amber rim lighting tracing their silhouettes, photorealistic film texture, and relaxed synchronized speech delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. The camera glides in a smooth gentle dolly push-in toward the glossy black obsidian desk. On the right, Digital Twin in his dark technical jacket looks directly into the camera lens with intense director authenticity and speaks aloud: "Can an AI filmmaker and his talking dog make an AI studio business?" On the left, Vector, the Miniature Schnauzer dog sitting upright behind his sleek open laptop wearing his vintage blue denim vest and dark black sunglasses, gives a decisive nod and speaks aloud in a calm deep voice: "From zero to ten k a month." Translucent cyan holographic interface cards float subtly above the desk displaying "$0 / Month", warm amber rim lighting tracing their silhouettes, photorealistic film texture, and relaxed synchronized speech delivery.
 ```
 
 ---
 
-### 🔹 Generation 2 (0:10 - 0:20) — The Business Model (14 words)
+### 🔹 Generation 2 (0:10 - 0:20) — The Zero-Base Starting Point (15 words)
 **Speech (5s Digital Twin + 4s Vector)**:
-- `Digital Twin: "Zero clients. Just pure AI video production."` *(7 words)*
-- `Vector: "Ten k recurring. Every dollar gets reinvested."` *(7 words)*
+- `Digital Twin: "Starting from scratch. No following, no audience, no clients."` *(9 words)*
+- `Vector: "This is the 100 days challenge."` *(6 words)*
 
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in the dark luxury studio. Steady medium framing centered on the obsidian desk. Vector, the Miniature Schnauzer dog wearing his vintage denim vest and dark sunglasses, taps the laptop trackpad with his front paw, activating a glowing cyan liquid revenue bar climbing from "$0" to "$10,000/mo". Digital Twin stands beside him, gestures toward the holographic projection, and speaks aloud: "Zero clients. Just pure AI video production." Vector looks up with cool authority behind his sunglasses and speaks aloud in his deep voice: "Ten k recurring. Every dollar gets reinvested." Glowing neon reflections shimmering across the polished black obsidian desk, dark studio background, and crisp synchronized lip delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in the dark luxury studio. Steady medium framing centered on the obsidian desk. Vector, the Miniature Schnauzer dog wearing his vintage denim vest and dark sunglasses, taps the laptop trackpad with his front paw, activating a glowing cyan liquid revenue bar climbing from "$0" to "$10,000/mo". Digital Twin stands beside him, gestures toward the holographic projection, and speaks aloud: "Starting from scratch. No following, no audience, no clients." Vector looks up with cool authority behind his sunglasses and speaks aloud in his deep voice: "This is the 100 days challenge." Glowing neon reflections shimmering across the polished black obsidian desk, dark studio background, and crisp synchronized lip delivery.
 ```
 
 ---
 
-### 🔹 Generation 3 (0:20 - 0:30) — The Challenge & Call to Action (14 words)
+### 🔹 Generation 3 (0:20 - 0:30) — The Challenge & Call to Action (15 words)
 **Speech (5s Digital Twin + 3s Vector)**:
-- `Digital Twin: "One video every day for 100 days. Zero excuses."` *(9 words)*
+- `Digital Twin: "One video every day. All revenue reinvested into scale."` *(9 words)*
 - `Vector: "Hit follow. Day zero begins now."` *(6 words)*
 
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Centered symmetrical medium framing: Digital Twin on the left and Vector, the Miniature Schnauzer dog on the right wearing his vintage blue denim vest and dark sunglasses behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin looks into the lens with energetic warmth, points his finger forward, and speaks aloud: "One video every day for 100 days. Zero excuses." Vector turns his head sharply directly into the camera lens with unflinching CEO swagger behind his dark sunglasses, gives a firm decisive head nod, and delivers the closing hook, speaking aloud: "Hit follow. Day zero begins now." Atmospheric volumetric lighting, dark moody studio backdrop, and relaxed natural synchronized speech delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Centered symmetrical medium framing: Digital Twin on the left and Vector, the Miniature Schnauzer dog on the right wearing his vintage blue denim vest and dark sunglasses behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin looks into the lens with energetic warmth, points his finger forward, and speaks aloud: "One video every day. All revenue reinvested into scale." Vector turns his head sharply directly into the camera lens with unflinching CEO swagger behind his dark sunglasses, gives a firm decisive head nod, and delivers the closing hook, speaking aloud: "Hit follow. Day zero begins now." Atmospheric volumetric lighting, dark moody studio backdrop, and relaxed natural synchronized speech delivery.
 ```
