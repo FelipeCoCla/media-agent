@@ -37,6 +37,11 @@
    - Arquitectura de 5 capas: `BgMesh` ➔ Contenido ➔ `Grade` ➔ `Grain` ➔ `Vignette`.
 6. **Sincronización Post-Render (Auditoría de Speech)**:
    - Cada vez que se renderice el video final de un día (`Rendered/Day X.mp4`), el agente debe transcribir el audio real con Whisper o ffmpeg, reescribir las prompts en `video_production.md` y guardarlas en `100 days Challenge/Day X/prompts/<vidname>.md` (ej. `Day 7/prompts/day 7.md`) para reflejar con 100% de fidelidad el speech y pacing final generado.
+7. **Regla de Oro de Pacing y Límites de Speech (10s por Generación en Google Omni)**:
+   - **Máximo 12 a 15 palabras TOTALES** por generación de 10 segundos (~1.5 palabras/s).
+   - Si hablan 2 personajes en los mismos 10s: **máximo 6 a 8 palabras por personaje**.
+   - Líneas de más de 10-12 palabras requieren una toma/generación individual de 10s.
+   - **Anclaje visual explícito**: Describir siempre a Vector como `Vector, the Miniature Schnauzer dog sitting upright wearing vintage blue denim vest and dark black sunglasses` para evitar que el modelo renderice a dos hombres por error.
 
 ---
 

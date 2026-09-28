@@ -39,6 +39,11 @@ Este espacio de trabajo contiene la configuración del **Stack de Agentes para A
 * **Motor de Video por Defecto (Google Omni Only)**: Si el usuario no pide explícitamente una herramienta de video de IA específica (ej. Runway, Kling, Sora), **asumir SIEMPRE y ÚNICAMENTE Google Omni**. No generar prompts para múltiples herramientas a menos que sea solicitado.
 * **Flujo de Trabajo (Storyboard Primero & Diálogo)**: Partir siempre por el desglose del **storyboard** y dialogar/co-diseñar con el usuario las opciones narrativas y ritmos cómicos antes de redactar prompts finales o dar por cerrado el video.
 * **Sincronización Post-Render (Auditoría de Speech)**: Cada vez que el usuario renderice el video final de un día (`Rendered/Day X.mp4`), el agente debe inspeccionar el video, transcribir el audio real generado (con Whisper o ffmpeg), actualizar `video_production.md` y guardar las prompts definitivas sincronizadas en `100 days Challenge/Day X/prompts/<vidname>.md` (ej. `Day 7/prompts/day 7.md`).
+* **Regla de Oro de Pacing y Límites de Speech (Generaciones de 10s en Google Omni)**:
+  1. **Límite de Palabras**: Máximo **12 a 15 palabras TOTALES** por generación de 10 segundos (~1.5 palabras/segundo) para pausas naturales y ritmo cinematográfico. Pasar de 16 palabras provoca que Google Omni corte, acelere o atropelle el audio.
+  2. **Diálogo de 2 Personajes**: Si hablan dos personajes en la misma toma de 10s, **máximo 6 a 8 palabras por personaje**.
+  3. **Tomas Individuales**: Si una línea requiere más desarrollo (10-14 palabras), asignarle una generación/corte individual de 10 segundos (ej. plano medio exclusivo).
+  4. **Anclaje Visual Explícito de Vector**: En el texto del prompt cinematográfico, describir siempre a Vector explícitamente como `Vector, the Miniature Schnauzer dog sitting upright wearing vintage blue denim vest and dark black sunglasses` para evitar que el modelo de video lo confunda y genere a un segundo hombre.
 
 ---
 
