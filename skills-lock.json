@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "carousel-designer": {
+      "source": "michailbul/laniameda-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design/carousel-designer/SKILL.md",
+      "computedHash": "f7b9bc0ae055f5efc1ce8259a550806c52d2784c582deace2c068d62323c8a07"
+    },
+    "remotion-video-creation": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-video-creation/SKILL.md",
+      "computedHash": "bc1054b481bf128749aeb5ecacabd6529e87657dfd84c8f3ec0c4c4fd5111daf"
+    }
+  }
+}

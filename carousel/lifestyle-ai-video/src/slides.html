@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lifestyle AI Video Business Carousel</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* ═══════════════════════════════════════════════════════════
+       CAROUSEL DESIGN SYSTEM — FULL-BLEED WALLPAPER EDITORIAL
+       1080x1350px (4:5) Instagram & LinkedIn Carousel
+       ═══════════════════════════════════════════════════════════ */
+    :root {
+      --bg-base: #06070a;
+      
+      --border-subtle: rgba(255, 255, 255, 0.12);
+      --border-strong: rgba(255, 255, 255, 0.22);
+      --border-accent: rgba(16, 185, 129, 0.45);
+      
+      --text-primary: #ffffff;
+      --text-secondary: rgba(255, 255, 255, 0.82);
+      --text-tertiary: rgba(255, 255, 255, 0.55);
+      
+      --accent-emerald: #10b981;
+      --accent-emerald-bright: #34d399;
+      --accent-emerald-glow: rgba(16, 185, 129, 0.35);
+      --accent-cyan: #38bdf8;
+      --accent-gold: #f59e0b;
+      
+      --font-display: 'Bebas Neue', 'Space Grotesk', sans-serif;
+      --font-headline: 'Space Grotesk', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      
+      --slide-w: 1080px;
+      --slide-h: 1350px;
+      --safe: 72px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-body);
+      background: #020204;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding: 40px 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Slide Canvas */
+    .slide {
+      width: var(--slide-w);
+      height: var(--slide-h);
+      position: relative;
+      overflow: hidden;
+      background-color: var(--bg-base);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Full-Bleed Wallpaper Background Image */
+    .slide-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      z-index: 0;
+    }
+
+    /* Multi-Stage Cinematic Dark Gradient Overlays */
+    .overlay-hero {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(4, 5, 8, 0.92) 0%,
+        rgba(4, 5, 8, 0.75) 22%,
+        rgba(4, 5, 8, 0.20) 45%,
+        rgba(4, 5, 8, 0.35) 70%,
+        rgba(4, 5, 8, 0.94) 100%
+      );
+      z-index: 1;
+    }
+
+    .overlay-deep {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(4, 5, 8, 0.94) 0%,
+        rgba(4, 5, 8, 0.82) 30%,
+        rgba(4, 5, 8, 0.78) 70%,
+        rgba(4, 5, 8, 0.96) 100%
+      );
+      z-index: 1;
+    }
+
+    .overlay-balanced {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(4, 5, 8, 0.90) 0%,
+        rgba(4, 5, 8, 0.65) 25%,
+        rgba(4, 5, 8, 0.30) 50%,
+        rgba(4, 5, 8, 0.75) 80%,
+        rgba(4, 5, 8, 0.95) 100%
+      );
+      z-index: 1;
+    }
+
+    /* Subtle Grid Overlay */
+    .grid-texture {
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    /* Safe Content Zone */
+    .safe-zone {
+      position: relative;
+      z-index: 3;
+      padding: var(--safe);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Kicker Header */
+    .kicker-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .kicker-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(8, 10, 15, 0.75);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-accent);
+      border-radius: 999px;
+      padding: 9px 20px;
+      font-family: var(--font-mono);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--accent-emerald-bright);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      box-shadow: 0 0 20px var(--accent-emerald-glow);
+    }
+
+    .kicker-pill::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent-emerald-bright);
+      box-shadow: 0 0 10px var(--accent-emerald-bright);
+    }
+
+    .slide-series-tag {
+      font-family: var(--font-mono);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-tertiary);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      background: rgba(8, 10, 15, 0.6);
+      backdrop-filter: blur(12px);
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    /* Typography */
+    .headline-hero {
+      font-family: var(--font-headline);
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 1.08;
+      letter-spacing: -1.8px;
+      color: var(--text-primary);
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+    }
+
+    .headline-hero span {
+      background: linear-gradient(135deg, #10b981 0%, #38bdf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .headline-md {
+      font-family: var(--font-headline);
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -1.2px;
+      color: var(--text-primary);
+      text-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+    }
+
+    .headline-md span {
+      color: var(--accent-emerald-bright);
+    }
+
+    .subtext {
+      font-family: var(--font-body);
+      font-size: 24px;
+      line-height: 1.5;
+      color: var(--text-secondary);
+      font-weight: 400;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Frosted Glass Floating Card */
+    .glass-card {
+      background: rgba(8, 10, 16, 0.72);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid var(--border-subtle);
+      border-top-color: rgba(255, 255, 255, 0.22);
+      border-radius: 20px;
+      padding: 30px 34px;
+      box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.12),
+        0 12px 36px rgba(0, 0, 0, 0.6);
+    }
+
+    .floating-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(8, 10, 16, 0.75);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 12px;
+      padding: 10px 20px;
+      font-family: var(--font-mono);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    .floating-badge .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent-emerald-bright);
+      box-shadow: 0 0 8px var(--accent-emerald-bright);
+    }
+
+    /* Footer Bar */
+    .slide-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      padding-top: 20px;
+      background: rgba(6, 7, 10, 0.65);
+      backdrop-filter: blur(16px);
+      margin: 0 calc(-1 * var(--safe));
+      padding-left: var(--safe);
+      padding-right: var(--safe);
+      padding-bottom: 6px;
+    }
+
+    .footer-author {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .author-avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1.5px solid var(--accent-emerald-bright);
+      overflow: hidden;
+      box-shadow: 0 0 12px var(--accent-emerald-glow);
+    }
+
+    .author-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .author-meta {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .author-name {
+      font-family: var(--font-headline);
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .author-handle {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+
+    .footer-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .slide-counter {
+      font-family: var(--font-mono);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--accent-emerald-bright);
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid var(--border-accent);
+      padding: 6px 14px;
+      border-radius: 8px;
+    }
+
+    .swipe-cue {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      letter-spacing: 0.5px;
+    }
+
+    /* Grid layout for features */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .feature-box {
+      background: rgba(8, 10, 16, 0.75);
+      backdrop-filter: blur(18px);
+      border: 1px solid var(--border-subtle);
+      border-top-color: rgba(255, 255, 255, 0.18);
+      border-radius: 16px;
+      padding: 24px 26px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .feature-num {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--accent-emerald-bright);
+    }
+
+    .feature-title {
+      font-family: var(--font-headline);
+      font-size: 23px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.2;
+    }
+
+    .feature-desc {
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.45;
+      color: var(--text-secondary);
+    }
+
+    /* Contrast Box */
+    .contrast-card {
+      padding: 26px 30px;
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+    }
+
+    .contrast-old {
+      background: rgba(20, 10, 12, 0.85);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      border-top-color: rgba(239, 68, 68, 0.5);
+    }
+
+    .contrast-new {
+      background: rgba(8, 20, 16, 0.85);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      border-top-color: rgba(16, 185, 129, 0.6);
+    }
+
+    .contrast-tag {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .contrast-old .contrast-tag { color: #f87171; }
+    .contrast-new .contrast-tag { color: #34d399; }
+
+    .contrast-title {
+      font-family: var(--font-headline);
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .contrast-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-family: var(--font-body);
+      font-size: 17px;
+      color: var(--text-secondary);
+    }
+
+    .contrast-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Metric Hero Box */
+    .metric-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .metric-item {
+      background: rgba(8, 10, 16, 0.78);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--border-subtle);
+      border-top-color: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      padding: 24px 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .metric-val {
+      font-family: var(--font-display);
+      font-size: 54px;
+      line-height: 1;
+      color: var(--accent-emerald-bright);
+      letter-spacing: 1px;
+    }
+
+    .metric-lbl {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+
+    /* CTA Card */
+    .cta-container {
+      background: rgba(8, 14, 18, 0.85);
+      backdrop-filter: blur(24px);
+      border: 1.5px solid rgba(16, 185, 129, 0.4);
+      border-radius: 24px;
+      padding: 40px 38px;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      box-shadow: 
+        0 0 50px rgba(16, 185, 129, 0.2),
+        0 16px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    .cta-badge {
+      display: inline-flex;
+      align-self: flex-start;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent-emerald-bright);
+      color: #041a12;
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 800;
+      padding: 7px 18px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .cta-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .cta-step {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-family: var(--font-body);
+      font-size: 21px;
+      color: var(--text-primary);
+    }
+
+    .cta-step-num {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1.5px solid rgba(255, 255, 255, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--accent-emerald-bright);
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Dynamic Root Container where JS builds the slides -->
+  <div id="carousel-root"></div>
+
+  <!-- Script that renders slides from carousel.config.js -->
+  <script type="module">
+    import { carouselConfig } from './carousel.config.js';
+
+    const root = document.getElementById('carousel-root');
+    const totalSlides = carouselConfig.slides.length;
+    const author = carouselConfig.meta.author;
+
+    function padZero(num) {
+      return num < 10 ? `0${num}` : `${num}`;
+    }
+
+    function renderFooter(slideIndex, isLast) {
+      const current = padZero(slideIndex + 1);
+      const total = padZero(totalSlides);
+
+      const rightPart = isLast
+        ? `<div class="slide-counter">${current} / ${total}</div>`
+        : `<div class="swipe-cue">Swipe <span style="color: var(--accent-emerald-bright);">➔</span></div>
+           <div class="slide-counter">${current} / ${total}</div>`;
+
+      return `
+        <div class="slide-footer">
+          <div class="footer-author">
+            <div class="author-avatar">
+              <img src="${author.avatar}" alt="Avatar">
+            </div>
+            <div class="author-meta">
+              <span class="author-name">${author.name}</span>
+              <span class="author-handle">${author.handle}</span>
+            </div>
+          </div>
+          <div class="footer-right">
+            ${rightPart}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderSlide(slide, index) {
+      const isLast = index === totalSlides - 1;
+      const overlayClass = slide.overlayType === 'hero' ? 'overlay-hero' : (slide.overlayType === 'balanced' ? 'overlay-balanced' : 'overlay-deep');
+      const headlineClass = (slide.type === 'cover' || slide.type === 'cta') ? 'headline-hero' : 'headline-md';
+
+      let bodyContent = '';
+
+      if (slide.type === 'cover') {
+        bodyContent = `
+          <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="kicker-row">
+              <div class="kicker-pill">${slide.kicker}</div>
+              <div class="slide-series-tag">${slide.seriesTag}</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 14px;">
+              <h1 class="${headlineClass}">${slide.headline}</h1>
+              <p class="subtext">${slide.subtext}</p>
+            </div>
+          </div>
+          <div style="flex: 1;"></div>
+          <div style="display: flex; flex-direction: column; gap: 18px;">
+            ${slide.bottomBadge ? `
+              <div class="floating-badge" style="align-self: flex-start;">
+                <span class="dot"></span>
+                <span>${slide.bottomBadge}</span>
+              </div>
+            ` : ''}
+            ${renderFooter(index, isLast)}
+          </div>
+        `;
+      } else if (slide.type === 'contrast') {
+        bodyContent = `
+          <div style="display: flex; flex-direction: column; gap: 18px;">
+            <div class="kicker-row">
+              <div class="kicker-pill">${slide.kicker}</div>
+              <div class="slide-series-tag">${slide.seriesTag}</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 12px;">
+              <h2 class="${headlineClass}">${slide.headline}</h2>
+              <p class="subtext">${slide.subtext}</p>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 18px; margin: 10px 0;">
+            <div class="contrast-card contrast-old">
+              <div class="contrast-tag">${slide.contrast.old.tag}</div>
+              <div class="contrast-title">${slide.contrast.old.title}</div>
+              <ul class="contrast-list">
+                ${slide.contrast.old.points.map(pt => `<li>• ${pt}</li>`).join('')}
+              </ul>
+            </div>
+            <div class="contrast-card contrast-new">
+              <div class="contrast-tag">${slide.contrast.new.tag}</div>
+              <div class="contrast-title">${slide.contrast.new.title}</div>
+              <ul class="contrast-list">
+                ${slide.contrast.new.points.map(pt => `<li>• ${pt}</li>`).join('')}
+              </ul>
+            </div>
+          </div>
+          ${renderFooter(index, isLast)}
+        `;
+      } else if (slide.type === 'callout') {
+        bodyContent = `
+          <div style="display: flex; flex-direction: column; gap: 18px;">
+            <div class="kicker-row">
+              <div class="kicker-pill">${slide.kicker}</div>
+              <div class="slide-series-tag">${slide.seriesTag}</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 12px;">
+              <h2 class="${headlineClass}">${slide.headline}</h2>
+              <p class="subtext">${slide.subtext}</p>
+            </div>
+          </div>
+          <div style="flex: 1;"></div>
+          <div style="display: flex; flex-direction: column; gap: 18px;">
+            <div class="glass-card" style="display: flex; align-items: center; justify-content: space-between; padding: 22px 28px;">
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <span style="font-size: 24px;">${slide.callout.icon}</span>
+                <span style="font-family: var(--font-headline); font-size: 20px; font-weight: 700; color: var(--text-primary);">
+                  ${slide.callout.title}
+                </span>
+              </div>
+              <span style="font-family: var(--font-mono); font-size: 14px; font-weight: 700; color: var(--accent-emerald-bright); background: rgba(16, 185, 129, 0.15); padding: 6px 14px; border-radius: 8px;">
+                ${slide.callout.badgeText}
+              </span>
+            </div>
+            ${renderFooter(index, isLast)}
+          </div>
+        `;
+      } else if (slide.type === 'metrics') {
+        bodyContent = `
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="kicker-row">
+              <div class="kicker-pill">${slide.kicker}</div>
+              <div class="slide-series-tag">${slide.seriesTag}</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <h2 class="${headlineClass}">${slide.headline}</h2>
+              <p class="subtext">${slide.subtext}</p>
+            </div>
+          </div>
+          <div style="flex: 1;"></div>
+          <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="metric-row">
+              ${slide.metrics.map(m => `
+                <div class="metric-item">
+                  <div class="metric-val">${m.val}</div>
+                  <div class="metric-lbl">${m.lbl}</div>
+                </div>
+              `).join('')}
+            </div>
+            ${renderFooter(index, isLast)}
+          </div>
+        `;
+      } else if (slide.type === 'grid') {
+        bodyContent = `
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="kicker-row">
+              <div class="kicker-pill">${slide.kicker}</div>
+              <div class="slide-series-tag">${slide.seriesTag}</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <h2 class="${headlineClass}">${slide.headline}</h2>
+              <p class="subtext">${slide.subtext}</p>
+            </div>
+          </div>
+          <div class="feature-grid" style="margin: 14px 0;">
+            ${slide.features.map(f => `
+              <div class="feature-box">
+                <div class="feature-num">${f.num}</div>
+                <div class="feature-title">${f.title}</div>
+                <div class="feature-desc">${f.desc}</div>
+              </div>
+            `).join('')}
+          </div>
+          ${renderFooter(index, isLast)}
+        `;
+      } else if (slide.type === 'cta') {
+        bodyContent = `
+          <div style="display: flex; flex-direction: column; gap: 18px;">
+            <div class="kicker-row">
+              <div class="kicker-pill">${slide.kicker}</div>
+              <div class="slide-series-tag">${slide.seriesTag}</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 14px;">
+              <h2 class="${headlineClass}">${slide.headline}</h2>
+              <p class="subtext">${slide.subtext}</p>
+            </div>
+          </div>
+          <div class="cta-container" style="margin: 10px 0;">
+            <div class="cta-badge">${slide.cta.badge}</div>
+            <div class="cta-steps">
+              ${slide.cta.steps.map(step => `
+                <div class="cta-step">
+                  <div class="cta-step-num">${step.num}</div>
+                  <div>${step.text}</div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+          <div class="glass-card" style="padding: 18px 28px; display: flex; align-items: center; justify-content: space-between;">
+            <span style="font-family: var(--font-headline); font-size: 20px; font-weight: 700; color: var(--text-primary);">
+              ${slide.cta.quote}
+            </span>
+            <span style="font-family: var(--font-mono); font-size: 15px; color: var(--accent-emerald-bright); font-weight: 700;">
+              ${slide.cta.buttonText}
+            </span>
+          </div>
+          ${renderFooter(index, isLast)}
+        `;
+      }
+
+      return `
+        <section class="slide" id="slide-${padZero(index + 1)}">
+          <img class="slide-bg" src="${slide.bgImage}" alt="Background ${index + 1}" style="object-position: ${slide.bgPosition || 'center center'};">
+          <div class="${overlayClass}"></div>
+          <div class="grid-texture"></div>
+          <div class="safe-zone">
+            ${bodyContent}
+          </div>
+        </section>
+      `;
+    }
+
+    // Render all slides
+    root.innerHTML = carouselConfig.slides.map((s, idx) => renderSlide(s, idx)).join('\n');
+    window.__CAROUSEL_READY__ = true;
+    console.log(`[Carousel] Rendered ${totalSlides} slides successfully from carousel.config.js.`);
+  </script>
+</body>
+</html>

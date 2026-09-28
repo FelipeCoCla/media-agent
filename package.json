@@ -1,0 +1,21 @@
+{
+  "name": "ai-video-motion-graphics",
+  "version": "1.0.0",
+  "description": "Remotion Motion Graphics for 100 Days Challenge AI Video Revolution",
+  "scripts": {
+    "dev": "remotion preview",
+    "build": "remotion render DailyInputsChart out/video.mp4",
+    "render": "remotion render DailyInputsChart out/daily_inputs.mp4"
+  },
+  "dependencies": {
+    "@remotion/google-fonts": "^4.0.509",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.260"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.260",
+    "@types/react": "^18.3.1",
+    "typescript": "^5.5.4"
+  }
+}

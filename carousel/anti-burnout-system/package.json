@@ -1,0 +1,12 @@
+{
+  "name": "anti-burnout-system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "100+ Pieces of Content Anti-Burnout Carousel",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.62.1"
+  }
+}
