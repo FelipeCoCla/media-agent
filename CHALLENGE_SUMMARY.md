@@ -50,7 +50,7 @@
 ### 🔹 Día 0: *The Master Trailer & Pinned Challenge Video (START HERE)*
 - **Premisa**: Video anclado permanente para perfiles sociales. Plantea el reto de construir un estudio de video con IA de $0 a $10,000/mes de ingresos recurrentes (MRR) en 100 días consecutivos, sin seguidores iniciales y reinvirtiendo el 100% de los fondos de clientes en cómputo y escala.
 - **Ubicación & Assets**: [`100 days Challenge/Day 0/`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200) — Master Keyframe en [`assets/day0_00_master_keyframe.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_00_master_keyframe.jpg) y prompts en [`video_production.md`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/video_production.md).
-- **Duración**: 30s (3 generaciones de 10s en Google Omni). **Estado: GUION, ASSETS & PROMPTS LISTOS**.
+- **Duración**: 50s (5 generaciones de 10s en Google Omni). **Estado: GUION, ASSETS & PROMPTS LISTOS**.
 
 ### 🔹 Día 1 - 2: Fundamentos y Setup
 - Inicio del desafío de 100 días y configuración del stack de agentes de IA de video.

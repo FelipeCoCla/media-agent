@@ -27,7 +27,7 @@
 ---
 
 ## ⏱️ 3. Scene Breakdown & Synchronized Voiceover (`video-scene-specifier`)
-*Total Runtime: 40 seconds (4 modular generations of 10 seconds in vertical 9:16 format)*  
+*Total Runtime: 50 seconds (5 modular generations of 10 seconds in vertical 9:16 format)*  
 *Pacing Standard: Máximo 12–15 palabras por generación de 10s para ritmo natural y pausas.*
 
 ### 🔹 Generation 1 (0:00 - 0:10): The Hook & The Absurd Premise (20 words)
@@ -70,6 +70,15 @@ Vertical 9:16 cinematic frame, 35mm lens with f/1.8 shallow depth of field. Symm
 
 ---
 
+### 🔹 Generation 5 (0:40 - 0:50): The Cinematic Cliffhanger & The Journey Ahead (12 words)
+**Visual Setting:**
+Vertical 9:16 cinematic frame, 35mm lens with f/1.8 shallow depth of field. The camera executes a slow, dramatic dolly pull-back and wide zoom out away from the black obsidian desk. In the background, Digital Twin and Vector continue speaking casually and gesturing to each other behind the desk in total silence with muted inaudible audio. Ambient cyan holographic interface lights flicker and drift softly in the room haze. Shadows lengthen, volumetric amber rim lighting faintly outlining their distant silhouettes as the tension builds before rapid trailer cuts.
+
+**Voiceover & Dialogue:**
+- **Narrator (Deep Movie Trailer Voice)**: *"What they didn't know, was the journey that laid ahead of them..."* (12 words)
+
+---
+
 ## 🎥 4. Master Cinematic Video Prompts (`video-master-prompter`)
 
 > ⚙️ **Engine**: Google Omni / Google Veo (Primary & Exclusive Engine).  
@@ -101,6 +110,13 @@ A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow dep
 ### 🎬 Generation 4 (0:30 - 0:40) — The Outro & Day 0 Out (15 words)
 ```text
 A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Centered symmetrical medium framing: Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin looks into the lens with energetic warmth, points his finger forward, and speaks aloud: "Follow now, or watch us win without you." Vector leans slightly forward with supreme CEO swagger, looks directly into the camera lens, gives a firm decisive head nod, and delivers the closing hook, speaking aloud in his cool voice: "This is the beginning. Day zero... out." Atmospheric volumetric lighting, dark moody studio backdrop, and relaxed natural synchronized speech delivery.
+```
+
+---
+
+### 🎬 Generation 5 (0:40 - 0:50) — The Cinematic Cliffhanger & The Journey Ahead (12 words)
+```text
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. The camera executes a slow, dramatic dolly pull-back and wide zoom out away from the black obsidian desk. In the background, Digital Twin and Vector continue speaking casually and gesturing to each other behind the desk in total silence with muted inaudible audio. Ambient cyan holographic interface lights flicker and drift softly in the room haze. Over an ominous low cinematic drone, a deep, commanding movie trailer narrator voiceover speaks aloud with gravitas: "What they didn't know, was the journey that laid ahead of them..." Shadows lengthen, volumetric amber rim lighting faintly outlining their distant silhouettes, 35mm cinematic film grain, photorealistic atmosphere, building dramatic tension before rapid trailer cuts.
 ```
 
 ---

@@ -2,7 +2,7 @@
 
 - **Video Target**: [`100 days Challenge/Day 0/video_production.md`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/video_production.md)
 - **Role**: Pinned Post #1 (Social Profile Permanent Trailer)
-- **Total Runtime**: 40 seconds (4x 10s modular generations)
+- **Total Runtime**: 50 seconds (5x 10s modular generations)
 - **Engine**: Google Omni / Google Veo (Vertical 9:16)
 - **Google Flow Rule**: Characters are pre-anchored in Google Flow. Refer strictly to **Vector** and **Digital Twin** without describing clothing, breed, or physical attributes.
 - **Pacing Standard**: Strict 12–15 words max per 10s generation for relaxed cinematic delivery
@@ -50,6 +50,16 @@ A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow dep
 
 ```text
 A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Centered symmetrical medium framing: Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin looks into the lens with energetic warmth, points his finger forward, and speaks aloud: "Follow now, or watch us win without you." Vector leans slightly forward with supreme CEO swagger, looks directly into the camera lens, gives a firm decisive head nod, and delivers the closing hook, speaking aloud in his cool voice: "This is the beginning. Day zero... out." Atmospheric volumetric lighting, dark moody studio backdrop, and relaxed natural synchronized speech delivery.
+```
+
+---
+
+### 🔹 Generation 5 (0:40 - 0:50) — The Cinematic Cliffhanger & The Journey Ahead (12 words)
+**Speech (Deep Movie Trailer Narrator Voiceover)**:
+- `Narrator: "What they didn't know, was the journey that laid ahead of them..."` *(12 words)*
+
+```text
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. The camera executes a slow, dramatic dolly pull-back and wide zoom out away from the black obsidian desk. In the background, Digital Twin and Vector continue speaking casually and gesturing to each other behind the desk in total silence with muted inaudible audio. Ambient cyan holographic interface lights flicker and drift softly in the room haze. Over an ominous low cinematic drone, a deep, commanding movie trailer narrator voiceover speaks aloud with gravitas: "What they didn't know, was the journey that laid ahead of them..." Shadows lengthen, volumetric amber rim lighting faintly outlining their distant silhouettes, 35mm cinematic film grain, photorealistic atmosphere, building dramatic tension before rapid trailer cuts.
 ```
 
 ---
