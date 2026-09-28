@@ -73,8 +73,14 @@
 
 ---
 
-## 🎯 5. Próximos Pasos (Día 7 y 8)
-- **Día 7**: *The Delivery & The 3-Pillar Portfolio Expansion* — Revisan la entrega de Sofia, celebran la calidad ("look at that skin texture"), pero Vector exige diversificar el portafolio con 2 nichos más (Consumer Tech & Performance Wellness) para tener volumen antes de salir al mercado.
-- **Día 8**: *Unleashing the Upwork Proposals* — Con el portafolio maduro de 3 pilares, envían sus primeras 3 propuestas de alto ticket ($3,500/mes) a marcas reales en Upwork.
+### 🔹 Día 7: *The Delivery & The 3-Pillar Portfolio Expansion (The Pet Care Mandate)*
+- **Premisa**: Revisan la entrega de Sofia (LUMEN), celebran la calidad hiperrealista, pero Vector exige diversificar el portafolio en 3 pilares comerciales clave antes de salir a Upwork: **Beauty & Skincare**, **Pet Care & Nutrition** (la prioridad estratégica de Vector: mercado de $80B) y **Performance Wellness**.
+- **Ubicación**: [`100 days Challenge/Day 7/video_production.md`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%207/video_production.md).
+- **Duración**: 30s. **Estado: GUION & PROMPTS LISTOS**.
+
+---
+
+## 🎯 5. Próximos Pasos (Día 8)
+- **Día 8**: *Unleashing the Upwork Proposals* — Con el portafolio maduro de 3 pilares (Beauty, Pet Care, Wellness), envían sus primeras 3 propuestas de alto ticket ($3,500/mes) a marcas reales en Upwork.
 
 
