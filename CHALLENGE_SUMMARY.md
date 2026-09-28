@@ -79,9 +79,14 @@
 - **Ubicación & Render**: [`100 days Challenge/Day 7/`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%207) — Archivo final en [`Rendered/Day 7.mp4`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%207/Rendered/Day%207.mp4).
 - **Duración**: 43.5s. **Estado: COMPLETADO & RENDERIZADO** (4 prompts sincronizadas con transcripción Whisper).
 
+### 🔹 Día 8: *Unleashing the Upwork Proposals ($10k Pipeline Drop)*
+- **Premisa**: Con el portafolio maduro de 3 pilares (Beauty, Pet Care, Wellness), Vector y Digital Twin lanzan su embudo comercial enviando sus primeras 3 propuestas de alto ticket ($3,500/mes cada una = $10,500/mes de pipeline activo) en Upwork, adjuntando pruebas de video personalizadas de IA.
+- **Ubicación**: [`100 days Challenge/Day 8/video_production.md`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%208/video_production.md). Prompts en [`Day 8/prompts/day 8.md`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%208/prompts/day%208.md).
+- **Duración**: 40s (4 generaciones de 10s). **Estado: GUION & PROMPTS LISTOS**.
+
 ---
 
-## 🎯 5. Próximos Pasos (Día 8)
-- **Día 8**: *Unleashing the Upwork Proposals* — Con el portafolio maduro de 3 pilares (Beauty, Pet Care, Wellness), envían sus primeras 3 propuestas de alto ticket ($3,500/mes) a marcas reales en Upwork.
+## 🎯 5. Próximos Pasos (Día 9)
+- **Día 9**: *The Client Replies & The First Discovery Call* — Llegan las respuestas de los clientes en Upwork, revisan las métricas de respuesta y agendan la primera videollamada de descubrimiento para cerrar el contrato inicial de la agencia.
 
 
