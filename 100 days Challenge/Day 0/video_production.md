@@ -46,17 +46,17 @@ Continuous vertical 9:16 shot with steady medium framing centered on the obsidia
 
 **Voiceover & Dialogue:**
 - **Digital Twin**: *"Starting from scratch. No following, no audience, no clients."* (9 words)
-- **Vector**: *"This is the 100 days challenge."* (6 words)
+- **Vector**: *"The 100 days AI video challenge."* (6 words)
 
 ---
 
-### 🔹 Generation 3 (0:20 - 0:30): The Challenge & Call to Action (15 words)
+### 🔹 Generation 3 (0:20 - 0:30): The Live Roadmap & Closing Challenge (16 words)
 **Visual Setting:**
-Vertical 9:16 cinematic frame, 35mm lens with f/1.8 shallow depth of field. Symmetrical medium close-up framing Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan holographic milestone cards orbit slowly in the air. Digital Twin smiles with authentic determination, pointing forward. Vector turns his head sharply directly into the camera lens, gives a firm nod, and delivers the closing hook.
+Vertical 9:16 cinematic frame, 35mm lens with f/1.8 shallow depth of field. Symmetrical medium close-up framing Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan holographic milestone cards orbit slowly in the air. Digital Twin smiles with authentic determination, pointing forward. Vector turns his head sharply directly into the camera lens with absolute executive swagger, gives a firm nod, and delivers the closing hook.
 
 **Voiceover & Dialogue:**
-- **Digital Twin**: *"One video every day. All revenue reinvested into scale."* (9 words)
-- **Vector**: *"Hit follow. Day zero begins now."* (6 words)
+- **Digital Twin**: *"Road to ten k a month, LIVE."* (7 words)
+- **Vector**: *"Follow the build now... or watch us win without you."* (9 words)
 
 ---
 
@@ -76,13 +76,29 @@ A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow dep
 
 ### 🎬 Generation 2 (0:10 - 0:20) — The Zero-Base Starting Point (15 words)
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in the dark luxury studio. Steady medium framing centered on the obsidian desk. Vector taps the laptop trackpad with his front paw, activating a glowing cyan liquid revenue bar climbing from "$0" to "$10,000/mo". Digital Twin stands beside him, gestures toward the holographic projection, and speaks aloud: "Starting from scratch. No following, no audience, no clients." Vector looks up and speaks aloud in his deep voice: "This is the 100 days challenge." Glowing neon reflections shimmering across the polished black obsidian desk, dark studio background, and crisp synchronized lip delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in the dark luxury studio. Steady medium framing centered on the obsidian desk. Vector taps the laptop trackpad with his front paw, activating a glowing cyan liquid revenue bar climbing from "$0" to "$10,000/mo". Digital Twin stands beside him, gestures toward the holographic projection, and speaks aloud: "Starting from scratch. No following, no audience, no clients." Vector looks up and speaks aloud in his deep voice: "The 100 days AI video challenge." Glowing neon reflections shimmering across the polished black obsidian desk, dark studio background, and crisp synchronized lip delivery.
 ```
 
 ---
 
-### 🎬 Generation 3 (0:20 - 0:30) — The Challenge & Call to Action (15 words)
+### 🎬 Generation 3 (0:20 - 0:30) — The Live Roadmap & Closing Challenge (16 words)
 ```text
-A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Centered symmetrical medium framing: Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin looks into the lens with energetic warmth, points his finger forward, and speaks aloud: "One video every day. All revenue reinvested into scale." Vector turns his head sharply directly into the camera lens, gives a firm decisive head nod, and delivers the closing hook, speaking aloud: "Hit follow. Day zero begins now." Atmospheric volumetric lighting, dark moody studio backdrop, and relaxed natural synchronized speech delivery.
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Centered symmetrical medium framing: Digital Twin on the left and Vector on the right behind the sleek obsidian desk. Floating translucent cyan interface cards orbit slowly in the air. Digital Twin looks into the lens with energetic warmth, points his finger forward, and speaks aloud: "Road to ten k a month, LIVE." Vector turns his head sharply directly into the camera lens with supreme CEO swagger, gives a firm decisive head nod, and delivers the closing hook, speaking aloud: "Follow the build now... or watch us win without you." Atmospheric volumetric lighting, dark moody studio backdrop, and relaxed natural synchronized speech delivery.
+```
+
+---
+
+## 📱 5. Pinned Social Media Copy & Manifesto
+
+```text
+The Rules of the 100 Days AI Video Challenge:
+
+Start from absolute zero: 0 followers, 0 audience, 0 clients.
+Document every single day: cold outreach, client calls, prompts, and rejections.
+Goal: $10,000/mo recurring revenue by Day 100.
+
+Drop a 🐕 if you're riding with us from Day 0. 
+
+This is... the beginning.
 ```
 
