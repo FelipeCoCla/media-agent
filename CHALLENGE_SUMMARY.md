@@ -36,7 +36,7 @@
    - Estilo: *Dark Luxury Glassmorphism & Liquid Meters 3D* (Obsidiana, bordes dorados, tubos de líquido fluorescente en Verde Esmeralda, Cian, Ámbar y Púrpura).
    - Arquitectura de 5 capas: `BgMesh` ➔ Contenido ➔ `Grade` ➔ `Grain` ➔ `Vignette`.
 6. **Sincronización Post-Render (Auditoría de Speech)**:
-   - Cada vez que se renderice el video final de un día (`Rendered/Day X.mp4`), el agente debe transcribir el audio real con Whisper o ffmpeg y reescribir las prompts en `video_production.md` para reflejar con 100% de fidelidad el speech y pacing final generado.
+   - Cada vez que se renderice el video final de un día (`Rendered/Day X.mp4`), el agente debe transcribir el audio real con Whisper o ffmpeg, reescribir las prompts en `video_production.md` y guardarlas en `100 days Challenge/Day X/prompts/<vidname>.md` (ej. `Day 7/prompts/day 7.md`) para reflejar con 100% de fidelidad el speech y pacing final generado.
 
 ---
 
