@@ -23,6 +23,10 @@
 | **00. Day 0 Master Keyframe** | Vector & Digital Twin at obsidian desk with floating "$0 to $10k/mo" and "100 DAYS CHALLENGE" cyan HUD cards | [`assets/day0_00_master_keyframe.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_00_master_keyframe.jpg) |
 | **01. Digital Twin Reference** | Master filmmaker portrait with wavy dark hair, dark technical jacket | [`assets/Digital Twin/`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/assets/Digital%20Twin) |
 | **02. Vector Reference** | Miniature Schnauzer with vintage denim vest and dark sunglasses | [`assets/Vector/`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/assets/Vector) |
+| **03. Closing Frame (Back-to-Back Leaning 01)** | Vector & Digital Twin leaning backs touching, arms crossed, 3/4 turn to camera | [`assets/day0_closing_frame_leaning_01.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_leaning_01.jpg) |
+| **04. Closing Frame (Back-to-Back Leaning 02)** | Touching backs with cyan telemetry HUD blueprint screen behind | [`assets/day0_closing_frame_leaning_02.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_leaning_02.jpg) |
+| **05. Closing Frame (Back-to-Back Leaning 03)** | Heroic low-angle perspective, spines touching, studio spotlight haze | [`assets/day0_closing_frame_leaning_03.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_leaning_03.jpg) |
+| **06. Closing Frame (Back-to-Back Leaning 04)** | Medium close-up, confident expressions, cinematic amber/cyan rim lighting | [`assets/day0_closing_frame_leaning_04.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_leaning_04.jpg) |
 
 ---
 
