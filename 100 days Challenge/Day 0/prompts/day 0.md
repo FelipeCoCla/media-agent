@@ -137,3 +137,44 @@ A vertical 9:16 epic climax movie trailer shot on a 35mm lens in torrential nigh
 | **Leaning Back 01** | Spines physically touching/leaning, arms crossed, 3/4 turn to camera | [`assets/day0_closing_frame_leaning_01.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_leaning_01.jpg) |
 | **Side 3/4 01** | Original 3/4 turn pose looking over shoulder, Vector on desk with paws crossed | [`assets/day0_closing_frame_01.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_01.jpg) |
 
+---
+
+## 🎨 Google Flow Prompts: Closing Frame Poses
+
+> ⚠️ **REGLA DE GOOGLE FLOW**: Los personajes ya están anclados como nodos en tu lienzo de Flow. Nómbralos **EXCLUSIVAMENTE** como `Vector` y `Digital Twin`. No describas raza, gafas, chaleco ni ropa para no sobrecargar el modelo.
+
+### 🎯 Pose 1: Frontal Completa (Recomendada — Freeze-Frame Maestro)
+> *Digital Twin de frente al lente con brazos cruzados y Vector sobre la mesa de obsidiana al mismo nivel visual.*
+
+```text
+A vertical 9:16 cinematic film still shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Symmetrical medium two-shot: on the left, Vector stands upright on hind legs atop the reflective black obsidian desk with front paws crossed over chest, staring straight forward into the camera lens with confident swagger. On the right, Digital Twin stands tall beside the desk facing directly forward in a full frontal pose with arms crossed firmly over chest, looking straight into the lens with a calm, resolute director gaze. Both characters are positioned at matched eye levels facing the viewer squarely. Atmospheric background haze, cyan rim lighting outlining Vector, warm amber rim lighting tracing Digital Twin's shoulders, specular reflections on the dark polished desk, 35mm film grain, photorealistic, strictly clean frame with no text.
+```
+
+---
+
+### 🤝 Pose 2: Espalda con Espalda Apoyados (Leaning Back-to-Back)
+> *Espaldas apoyadas tocándose con contacto físico, ambos con brazos cruzados mirando a 3/4 a cámara.*
+
+```text
+A vertical 9:16 cinematic film still shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Medium two-shot: Vector stands upright atop the reflective black obsidian desk while Digital Twin stands beside the desk. They stand leaning back-to-back with their backs physically touching and supporting each other, both with arms crossed over their chests. Both turn their heads in a three-quarter angle toward the camera, gazing into the lens with quiet confidence and partner synergy. Matched eye levels, deep shadows, subtle cyan edge lighting on the left, warm amber rim lighting on the right, reflections visible on the glossy obsidian desk surface, photorealistic cinematic texture, strictly clean frame with no text.
+```
+
+---
+
+### 🕶️ Pose 3: Perfil 3/4 Clásica (Over-the-Shoulder)
+> *Vector de frente sobre la mesa y Digital Twin perfilado mirando hacia atrás sobre su hombro.*
+
+```text
+A vertical 9:16 cinematic film still shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury studio. Medium two-shot: Vector stands upright on the polished black obsidian desk facing forward with front paws folded across chest, looking straight into the lens. Digital Twin stands beside the desk with his body angled in profile and back slightly turned away, looking back over his shoulder directly into the camera lens with arms crossed over chest. Both characters share matched eye levels. Atmospheric moody studio backdrop with soft bokeh, cyan rim light on Vector, warm amber edge light on Digital Twin, specular reflections on the obsidian table, cinematic film grain, strictly clean frame with no text.
+```
+
+---
+
+### 🎥 Pose 4: Micro-Push In Dinámico (Video de 10s en Flow / Google Omni)
+> *Para generar como clip de video de 10s en Flow con micro-movimiento de cámara y atmósfera viva mientras sostienen la pose frontal.*
+
+```text
+A vertical 9:16 cinematic video shot on a 35mm prime lens with f/1.8 shallow depth of field in a moody dark luxury agency studio. Subtle, barely perceptible slow-motion micro push-in camera movement. Symmetrical medium framing centered on Vector and Digital Twin: on the left, Vector stands upright on hind legs atop the glossy obsidian desk with front paws crossed, staring directly forward into the camera. On the right, Digital Twin stands facing directly forward in a full frontal pose with arms crossed over chest, holding an intense, charismatic director gaze at the lens with a faint confident smirk. Floating ambient cyan dust motes drift slowly through the air, volumetric amber rim light, subtle natural breathing motion holding the epic trailer freeze-frame posture, photorealistic, strictly clean frame with no text.
+```
+
+
