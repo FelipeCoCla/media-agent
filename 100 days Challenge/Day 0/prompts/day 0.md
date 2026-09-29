@@ -77,3 +77,63 @@ Drop a 🐕 if you're riding with us from Day 0.
 
 This is... the beginning.
 ```
+
+---
+
+## 💥 Over-the-Top B-Roll Prompts ("The Journey Ahead" Epic Trailer Montage)
+
+### 💥 B-Roll 1: El Salto del Rascacielos estilo Michael Bay
+> *Vector saltando en cámara lenta desde la azotea de un rascacielos mientras una bola de fuego descomunal revienta los vidrios a sus espaldas.*
+
+```text
+A vertical 9:16 high-octane cinematic Hollywood action movie shot on a 35mm lens with shallow depth of field. Vector leaps in extreme slow-motion toward the camera from the ledge of a glass skyscraper rooftop into the night air. Directly behind him, a massive, apocalyptic orange fireball explosion shatters the building's glass windows, sending fiery debris, smoke plumes, and glowing embers tumbling into the night sky. Intense anamorphic lens flares streak horizontally across the frame, dramatic rim lighting tracing Vector's silhouette in mid-flight, photorealistic motion physics, and thunderous cinematic explosive sound design.
+```
+
+---
+
+### 💻 B-Roll 2: El Megahackeo Cyberpunk
+> *Digital Twin hackeando a velocidad ridícula en una sala de servidores oscuros con hologramas flotantes y alarmas rojas estilo Matrix/Mr. Robot.*
+
+```text
+A vertical 9:16 high-speed cyberpunk thriller shot on a 35mm prime lens in a dark moody underground supercomputer server room. Digital Twin types at lightning speed on multiple floating 3D holographic neon keyboards as emerald and cyan code cascades in mid-air. Strobe-like crimson emergency alarm beacons flash rhythmically through thick atmospheric smoke and laser lattices. Digital Twin's face is illuminated by dense streams of data and telemetry graphs reflecting sharply, fast dynamic camera orbital push-in, cinematic volumetric lighting, and tense electronic glitch audio.
+```
+
+---
+
+### 🐉 B-Roll 3: El Dragón Titánico de Cómputo
+> *Un dragón biomecánico gigante en la cima de un rascacielos escupiendo fuego de plasma azul sobre una metrópolis lluviosa.*
+
+```text
+A vertical 9:16 colossal cinematic fantasy-action shot on a wide prime lens with deep atmospheric haze. A gargantuan, obsidian-scaled dragon with glowing bio-luminescent cyan veins perches atop a neon-lit futuristic skyscraper in a rain-drenched cyberpunk metropolis. The dragon rears back, opens its colossal jaws, and unleashes a ferocious, blinding torrent of electric blue and golden plasma fire into the stormy night sky, illuminating rain sheets and towering corporate towers with intense volumetric light rays, accompanied by a deafening mythic roar and sub-bass vibration.
+```
+
+---
+
+### 🏎️ B-Roll 4: La Persecución en el Desierto Mad Max
+> *Vector derrapando en un muscle car negro mate en el desierto apocalíptico mientras drones de combate lo persiguen a toda velocidad.*
+
+```text
+A vertical 9:16 post-apocalyptic cinematic action chase shot on an anamorphic lens during a blood-orange sunset. Vector aggressively steers a roaring vintage matte-black muscle car, executing a high-speed sideways powerslide across a vast desolate desert flatland. Thick dust clouds billow violently from spinning tires as sleek autonomous military drones hover and swoop aggressively in the background dust storm. Golden hour rim lighting, wind-whipped desert sand, kinetic tracking camera hovering inches from the ground, and raw mechanical engine roar.
+```
+
+---
+
+### ⚡ B-Roll 5: El Clímax Helipad Paw-Bump bajo la Tormenta
+> *Digital Twin y Vector espalda con espalda en un helipuerto empapado por la lluvia; un rayo ilumina la noche y chocan puño y pata con chispas eléctricas.*
+
+```text
+A vertical 9:16 epic climax movie trailer shot on a 35mm lens in torrential night rain on a high-altitude skyscraper helipad. Symmetrical medium shot: Vector and Digital Twin stand back-to-back drenched in atmospheric rain. Right as a massive jagged lightning bolt illuminates the storm clouds behind them in slow motion, Vector raises his front paw and Digital Twin extends his fist, meeting in a powerful slow-motion paw-bump that sparks with subtle electric light. Camera rotates smoothly 360 degrees around them, wet reflective asphalt reflecting city neon, volumetric atmospheric fog, and a climactic orchestral brass trailer hit.
+```
+
+---
+
+## 📸 Master Closing Frame Options (Day 0 Trailer End Freeze-Frame)
+
+| Option | Pose Description | Image File Link |
+| :--- | :--- | :--- |
+| **Frontal 01 (Recommended)** | Vector on desk unchanged, Digital Twin full frontal pose facing lens squarely with arms crossed | [`assets/day0_closing_frame_frontal_01.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_frontal_01.jpg) |
+| **Frontal 02** | Frontal pose with subtle confident smirk and slight head tilt, dark studio lights | [`assets/day0_closing_frame_frontal_02.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_frontal_02.jpg) |
+| **Frontal 03** | High-contrast chiaroscuro frontal director gaze, amber & cyan rim illumination | [`assets/day0_closing_frame_frontal_03.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_frontal_03.jpg) |
+| **Leaning Back 01** | Spines physically touching/leaning, arms crossed, 3/4 turn to camera | [`assets/day0_closing_frame_leaning_01.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_leaning_01.jpg) |
+| **Side 3/4 01** | Original 3/4 turn pose looking over shoulder, Vector on desk with paws crossed | [`assets/day0_closing_frame_01.jpg`](file:///Users/felipehernancontrerasclavero/Desktop/Proyectos/customagents/100%20days%20Challenge/Day%200/assets/day0_closing_frame_01.jpg) |
+
