@@ -50,7 +50,7 @@ Photorealistic 8k vertical video of [Subject & Action], [Camera Angle & Motion],
 ---
 
 ## 3. Reglas Estrictas
-- **Motor por Defecto (Google Omni Only)**: A menos que el usuario mencione explícitamente Runway, Kling o Sora, generar **únicamente prompts para Google Omni**. No incluir los otros motores por defecto.
+- **Motor por Defecto (Google Omni Only)**: A menos que el usuario mencione explícitamente Runway, Kling, Sora o Seedance / Seedance 2.0, generar **únicamente prompts para Google Omni**. No incluir los otros motores por defecto. Si el usuario solicita explícitamente Seedance o Seedance 2.0, derivar la generación al skill `seedance-20`.
 - **Pacing Inquebrantable**: Jamás generar prompts con más de 12-15 palabras totales de diálogo para un clip de 10s.
 - **Idioma**: Todos los prompts y diálogos deben estar **100% en Inglés (English)**.
 - **Sin Palabras Negativas**: Describir lo que *debe verse* en positivo (*"stable tripod-mounted camera, sharp focus"* en lugar de *"no shake, no blur"*).

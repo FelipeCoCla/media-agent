@@ -1,0 +1,1037 @@
+{
+  "contract_sha256": "462c14923d5b598730b230c56967afa955e7a2556f6949958d91575938cd7086",
+  "declared_paths": [
+    ".gitattributes",
+    ".gitignore",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "SKILL.md",
+    "V6_SEQUENCE_PROMPT_COMPILER_MANIFEST.md",
+    "agents/openai.yaml",
+    "assets/clips/clip-01-by-appointment-only.svg",
+    "assets/clips/clip-02-hold-the-line.svg",
+    "assets/clips/clip-03-this-cup-of-tea.svg",
+    "assets/clips/clip-04-twenty-minutes-late.svg",
+    "assets/clips/clip-05-resignation.svg",
+    "assets/clips/clip-06-last-pitch.svg",
+    "assets/clips/clip-07-one-more-round.svg",
+    "assets/fonts/OFL.txt",
+    "assets/hero-dark.svg",
+    "assets/hero-light.svg",
+    "assets/masthead-outlines.json",
+    "assets/skill-map.svg",
+    "data/community-patterns.seedance-2026-05-30.json",
+    "data/direction-traps.json",
+    "data/generation-runs.example.jsonl",
+    "data/moderation-cues.json",
+    "data/sources.seedance-2026-05-30.json",
+    "docs/LANGUAGE_COVERAGE.md",
+    "docs/QUICKSTART.es.md",
+    "docs/QUICKSTART.ja.md",
+    "docs/QUICKSTART.ko.md",
+    "docs/QUICKSTART.md",
+    "docs/QUICKSTART.ru.md",
+    "docs/QUICKSTART.zh.md",
+    "docs/README.es.md",
+    "docs/README.ja.md",
+    "docs/README.ko.md",
+    "docs/README.ru.md",
+    "docs/README.zh.md",
+    "docs/RELEASE_v6.2.0.md",
+    "docs/RELEASE_v6.3.0.md",
+    "docs/RELEASE_v6.4.0.md",
+    "docs/RELEASE_v6.5.0.md",
+    "docs/RELEASE_v6.6.0.md",
+    "docs/RELEASE_v6.7.0.md",
+    "docs/V7_INTEGRATION_REVIEW.md",
+    "docs/frontend-redesign.md",
+    "docs/v6-release-readiness.md",
+    "evals/eval-run-ledger.md",
+    "evals/evals.json",
+    "evals/generation-benchmark.json",
+    "evals/multilingual-native-review-evidence.json",
+    "evals/multilingual-native-review.json",
+    "evals/prompt-architecture-stress.json",
+    "examples/golden-prompts/compact-i2v.md",
+    "examples/golden-prompts/continuation-observed-deviation.md",
+    "examples/golden-prompts/dense-2d-storyboard.md",
+    "examples/golden-prompts/first-last-frame-transition.md",
+    "examples/golden-prompts/phased-single-take.md",
+    "examples/golden-prompts/r2v-role-isolation.md",
+    "examples/golden-prompts/sequence-continuation.md",
+    "examples/golden-prompts/video-edit-one-layer.md",
+    "examples/sequence-airport-arrival/clip-01-contract.json",
+    "examples/sequence-airport-arrival/clip-01-prompt.md",
+    "examples/sequence-airport-arrival/clip-01-take-review.json",
+    "examples/sequence-airport-arrival/clip-02-continuation-contract.json",
+    "examples/sequence-airport-arrival/clip-02-prompt.md",
+    "examples/sequence-airport-arrival/project-state.json",
+    "examples/sequence-airport-arrival/sequence-plan.md",
+    "examples/sequence-mixed-lane/project-state.json",
+    "examples/sequence-observed-deviation/project-state-after.json",
+    "examples/sequence-observed-deviation/project-state-before.json",
+    "examples/sequence-observed-deviation/take-review.json",
+    "examples/standalone-clip/project-state.json",
+    "examples/standalone-clip/prompt.md",
+    "references/2d-anime-grammar.md",
+    "references/agent-compatibility.md",
+    "references/allocation-model.md",
+    "references/anti-slop-lexicon.md",
+    "references/api-status.md",
+    "references/api-workflow.md",
+    "references/aspect-ratio-delivery.md",
+    "references/audio-guide.md",
+    "references/audio-post-delivery.md",
+    "references/capability-map.md",
+    "references/cinematography-shot-language.md",
+    "references/color-pipeline-aces.md",
+    "references/community-source-methodology.md",
+    "references/continuation-handoff.md",
+    "references/continuity-example-cards.md",
+    "references/continuity-qc.md",
+    "references/delivery-qc.md",
+    "references/dense-storyboard-mode.md",
+    "references/direct-for-the-model.md",
+    "references/directing-engine-genre-library.md",
+    "references/directing-engine.md",
+    "references/directors-read.md",
+    "references/eval-rubric.md",
+    "references/event-density.md",
+    "references/example-card-format.md",
+    "references/examples-by-mode.md",
+    "references/failure-atlas.md",
+    "references/field-observed-tips.md",
+    "references/filter-vocab.md",
+    "references/first-last-frame-guide.md",
+    "references/frontend-design-system.md",
+    "references/genre-guides.md",
+    "references/i2v-guide.md",
+    "references/intent-vs-precision.md",
+    "references/interview-starters.md",
+    "references/json-schema.md",
+    "references/model-mechanics.md",
+    "references/model-name-map.md",
+    "references/moderation-prescreen.md",
+    "references/multilingual-community-examples.md",
+    "references/multilingual-native-review.md",
+    "references/multishot-grammar.md",
+    "references/performance-example-cards.md",
+    "references/platform-constraints.md",
+    "references/platform-surface-matrix.md",
+    "references/pro-filmmaking-standards.md",
+    "references/product-example-cards.md",
+    "references/progressive-disclosure.md",
+    "references/prompt-compiler.md",
+    "references/prompt-examples.md",
+    "references/quick-ref.md",
+    "references/reference-transfer-contract.md",
+    "references/reference-workflow.md",
+    "references/research-2026-05-30.md",
+    "references/retake-protocol.md",
+    "references/sequence-project-state.md",
+    "references/sequence-worked-trace.md",
+    "references/shot-list-continuity.md",
+    "references/shot-table.md",
+    "references/source-registry.md",
+    "references/storytelling-framework.md",
+    "references/subtitles-localization.md",
+    "references/surface-prompt-profiles.md",
+    "references/sync-budget-protocol.md",
+    "references/vocab/en.md",
+    "references/vocab/es.md",
+    "references/vocab/ja.md",
+    "references/vocab/ko.md",
+    "references/vocab/ru.md",
+    "references/vocab/zh.md",
+    "requirements-validation.lock",
+    "schemas/clip-contract.schema.json",
+    "schemas/generation-run.schema.json",
+    "schemas/project-state.schema.json",
+    "schemas/prompt-spec.schema.json",
+    "schemas/take-review.schema.json",
+    "scripts/behavior_contract_check.py",
+    "scripts/build_hero.py",
+    "scripts/build_masthead_outlines.py",
+    "scripts/content_audit.py",
+    "scripts/continuity_chain_check.py",
+    "scripts/design_audit.py",
+    "scripts/eval_schema_check.py",
+    "scripts/extract_last_frame.py",
+    "scripts/generation_run_check.py",
+    "scripts/install_codex_skill.py",
+    "scripts/lineage_contract.py",
+    "scripts/project_state_check.py",
+    "scripts/prompt_architecture_stress.py",
+    "scripts/prompt_lint.py",
+    "scripts/schema_check.py",
+    "scripts/sequence_eval_check.py",
+    "scripts/shot_table_check.py",
+    "scripts/source_registry_check.py",
+    "scripts/strict_json.py",
+    "scripts/validate_skills.py",
+    "scripts/vocab_schema_check.py",
+    "skills/seedance-antislop/SKILL.md",
+    "skills/seedance-audio/SKILL.md",
+    "skills/seedance-camera/SKILL.md",
+    "skills/seedance-characters/SKILL.md",
+    "skills/seedance-continuation/SKILL.md",
+    "skills/seedance-copyright/SKILL.md",
+    "skills/seedance-examples-ja/SKILL.md",
+    "skills/seedance-examples-ko/SKILL.md",
+    "skills/seedance-examples-zh/SKILL.md",
+    "skills/seedance-filter/SKILL.md",
+    "skills/seedance-interview-short/SKILL.md",
+    "skills/seedance-interview/SKILL.md",
+    "skills/seedance-lighting/SKILL.md",
+    "skills/seedance-motion/SKILL.md",
+    "skills/seedance-pipeline/SKILL.md",
+    "skills/seedance-prompt-short/SKILL.md",
+    "skills/seedance-prompt/SKILL.md",
+    "skills/seedance-recipes/SKILL.md",
+    "skills/seedance-sequence/SKILL.md",
+    "skills/seedance-style/SKILL.md",
+    "skills/seedance-troubleshoot/SKILL.md",
+    "skills/seedance-vfx/SKILL.md",
+    "skills/seedance-vocab-en/SKILL.md",
+    "skills/seedance-vocab-es/SKILL.md",
+    "skills/seedance-vocab-ja/SKILL.md",
+    "skills/seedance-vocab-ko/SKILL.md",
+    "skills/seedance-vocab-ru/SKILL.md",
+    "skills/seedance-vocab-zh/SKILL.md",
+    "validation/authoring-state-provenance-ledger.json",
+    "validation/fixtures/directors-read-cases.json",
+    "validation/fixtures/generation-run.valid.json",
+    "validation/fixtures/prompt-spec.valid.json",
+    "validation/install-payload.txt",
+    "validation/schema-instances.json"
+  ],
+  "file_count": 205,
+  "files": {
+    ".gitattributes": {
+      "sha256": "d178df6689f0ca77ae6deebf45ffe5d53e0884dfa490304b8304e31a5e98410c",
+      "size": 364
+    },
+    ".gitignore": {
+      "sha256": "7324700206d6d050a5995f3dd8da94ece28b4aed30c1a2b60651d6cb7f447848",
+      "size": 460
+    },
+    "CHANGELOG.md": {
+      "sha256": "5b723f01cb0410a4acc6af20d6edb558818f50d8bd9f97b71c7bb902b9b640df",
+      "size": 73624
+    },
+    "LICENSE": {
+      "sha256": "c84a6216f6e006b4e4a65e9d056837a61ee9c4ca79f43f386df2992bc690a7f6",
+      "size": 1085
+    },
+    "README.md": {
+      "sha256": "9376aad13a74aec355b5c52962a7e6181216470aac6f1f1c01a237c48da287a9",
+      "size": 62610
+    },
+    "SECURITY.md": {
+      "sha256": "941c306efeddd5c1af66c0d7b6d34ec3c2818902522c669ef0649ff01b71a174",
+      "size": 12974
+    },
+    "SKILL.md": {
+      "sha256": "9cc2161b0dad7f0fb75490106eda34f314de503bcadfba515364053cf7bdcd92",
+      "size": 29515
+    },
+    "V6_SEQUENCE_PROMPT_COMPILER_MANIFEST.md": {
+      "sha256": "1c17fe18aedc768d1d445aaecc2ce7eddfbcd80644038b371b44291809ad0c96",
+      "size": 7119
+    },
+    "agents/openai.yaml": {
+      "sha256": "b1927b56d4dce9d8c7e173489611ec2d03b792f573e592351ca05be67e261411",
+      "size": 387
+    },
+    "assets/clips/clip-01-by-appointment-only.svg": {
+      "sha256": "a2b6cea7497fe539a898839550bcec2511de48d797635c9cfb4f7cd1e9ff85f9",
+      "size": 1900
+    },
+    "assets/clips/clip-02-hold-the-line.svg": {
+      "sha256": "3682c190343a9e02596812b94476b1f011be3875bdc4cc4b59617f9a12a69f35",
+      "size": 1862
+    },
+    "assets/clips/clip-03-this-cup-of-tea.svg": {
+      "sha256": "8f4ef75f37413ab57c5ccd3d31ea7564749a9d0583ae17f34ed3f4044a43ff97",
+      "size": 1840
+    },
+    "assets/clips/clip-04-twenty-minutes-late.svg": {
+      "sha256": "76112bc948ed6bd0fa479a92db57c32c36fd62bcced6f914820356292efe433f",
+      "size": 1894
+    },
+    "assets/clips/clip-05-resignation.svg": {
+      "sha256": "45e056fdc5aaeb11036e666ff52b16b38e6a2d524d556f4f46245ba15a36800c",
+      "size": 1894
+    },
+    "assets/clips/clip-06-last-pitch.svg": {
+      "sha256": "a05609bc66d5fb16618d46b1e3ae0ef7d4799c02ad510955c16d5ceecbcbe763",
+      "size": 1860
+    },
+    "assets/clips/clip-07-one-more-round.svg": {
+      "sha256": "43aaa61333ef81562bef7b82d3ee41a1e912c40ec743b43bb4f8e2dcdf62d89c",
+      "size": 1902
+    },
+    "assets/fonts/OFL.txt": {
+      "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046",
+      "size": 4400
+    },
+    "assets/hero-dark.svg": {
+      "sha256": "32fce181085545e2da45ee397e575c48c8c0ebd18704a7cba1c38876ea1d3b98",
+      "size": 41761
+    },
+    "assets/hero-light.svg": {
+      "sha256": "262653585c6658bdfdd0afb593b2f7d4c4056a8a14ab544cdb14e8e7876796f8",
+      "size": 41761
+    },
+    "assets/masthead-outlines.json": {
+      "sha256": "5c0f25a4bed6ebd18de4dc09bd7b9339694666140febbc89fa358e4f23f8fd78",
+      "size": 41383
+    },
+    "assets/skill-map.svg": {
+      "sha256": "2888e5a949bbfb3202f52a30e4c38682651299f5e2c9dbb9cc36bcea8c8f9e80",
+      "size": 14081
+    },
+    "data/community-patterns.seedance-2026-05-30.json": {
+      "sha256": "f65e6c9b3a71c901cd6c01ec77e7fa9edb09c84fa479e8822dd3b1fee6728695",
+      "size": 10856
+    },
+    "data/direction-traps.json": {
+      "sha256": "2b0b4c12318337731daf8a0561c0323d65f9b397703f6472bd4485b0160f2ae7",
+      "size": 1608
+    },
+    "data/generation-runs.example.jsonl": {
+      "sha256": "7efe83ec24ef912747c4a7dbd048ca94d6029daa1f7e42df62af26ba5174c377",
+      "size": 770
+    },
+    "data/moderation-cues.json": {
+      "sha256": "16491b83e105073e356e30d9a3a88a2c5d5785dd2f087af3bf92f241edecf7e4",
+      "size": 10205
+    },
+    "data/sources.seedance-2026-05-30.json": {
+      "sha256": "1d7989ceb1abf5e289d45af0627a069f1818d0a064c3c28c5cef2b0066d5ce1f",
+      "size": 29536
+    },
+    "docs/LANGUAGE_COVERAGE.md": {
+      "sha256": "f3863ae3cf900ca019d094ed746a014a9352f0e96c91efb832b82904b1d66dcd",
+      "size": 6300
+    },
+    "docs/QUICKSTART.es.md": {
+      "sha256": "d9cc5f1b8c66fde32a8ca8df624062e3e07379aa6193771aa1a1c8cc7945ed9c",
+      "size": 11218
+    },
+    "docs/QUICKSTART.ja.md": {
+      "sha256": "8348968d05a4219395cea4858453bf1e2daad85b2dc18c7a8d1a12db5d389130",
+      "size": 14787
+    },
+    "docs/QUICKSTART.ko.md": {
+      "sha256": "e8f6a69827f6e5233d407182e1898f51a3023f86c22bca3d369a077a24e7e0d2",
+      "size": 14225
+    },
+    "docs/QUICKSTART.md": {
+      "sha256": "67f8b060291b069108c8b41ffc6606085a273e4df0805ede9b16d5e86aea6018",
+      "size": 8850
+    },
+    "docs/QUICKSTART.ru.md": {
+      "sha256": "1ddf8738b58ab37abad6ffc8b94f7052ee8de3b9803b1da6af428d7e9a55d86c",
+      "size": 18761
+    },
+    "docs/QUICKSTART.zh.md": {
+      "sha256": "680a1c11041c87e92e7809772a354287d7bac98df9ae4521789bc3a725f838bf",
+      "size": 10731
+    },
+    "docs/README.es.md": {
+      "sha256": "e446c744a5b22d5c403885be95171110bdf908ccee3ca385c27d2f8772db50cc",
+      "size": 8209
+    },
+    "docs/README.ja.md": {
+      "sha256": "2b9beb4b1c4af82995468764af306143976da4f7e299165f485a590d220f2115",
+      "size": 10291
+    },
+    "docs/README.ko.md": {
+      "sha256": "80052b6cf1dc0d449070e73d4f0458dbb6417be96aa72609a3367dc764ada3d8",
+      "size": 9868
+    },
+    "docs/README.ru.md": {
+      "sha256": "44d82b38dd2eb182b789e6937761698117c5c1f908c03ab7c81dca9980b90f8e",
+      "size": 13138
+    },
+    "docs/README.zh.md": {
+      "sha256": "9d3ee8275d8f767882fb3efb3c2850b92f40f788cb920e18ee5310adf4e9838c",
+      "size": 9763
+    },
+    "docs/RELEASE_v6.2.0.md": {
+      "sha256": "d88252b397292ff9f5fd43e159ae6c986e87633a318a51401280795f000c60fc",
+      "size": 2363
+    },
+    "docs/RELEASE_v6.3.0.md": {
+      "sha256": "9e1106eb2c3f679bac81b8f798aadc0bbecc9078c039ae51bb3d28fdd1d8461d",
+      "size": 3057
+    },
+    "docs/RELEASE_v6.4.0.md": {
+      "sha256": "7d06114c2f4e8a618908c7da3daf05af166b3bee91c388ee5a52e468bfa4717f",
+      "size": 3642
+    },
+    "docs/RELEASE_v6.5.0.md": {
+      "sha256": "cc7874cf9e7d6b5919cbf96e9c2bf24190ed7de96c208a38d128b558e2534346",
+      "size": 3165
+    },
+    "docs/RELEASE_v6.6.0.md": {
+      "sha256": "0365c99012f2446183b727f11152762ae69c925f124589c7453b27ba0f3497e0",
+      "size": 3303
+    },
+    "docs/RELEASE_v6.7.0.md": {
+      "sha256": "82f8b4a626d4a9f2ef8bb8a19cb5b6b676743d3da777005affab5d0dc594c946",
+      "size": 23474
+    },
+    "docs/V7_INTEGRATION_REVIEW.md": {
+      "sha256": "c6f6c48d9d7a1622c02f854568b827905e3f038ce473609c7fd38dde338acba9",
+      "size": 14672
+    },
+    "docs/frontend-redesign.md": {
+      "sha256": "e16d79533a962fa1cfa83d03ed68741ce22a424da6a172cba8592a1facee1028",
+      "size": 3418
+    },
+    "docs/v6-release-readiness.md": {
+      "sha256": "0865c31294cf5cd8b9e508a1470f98b88b82248ff3a0d577723e7e66222a9721",
+      "size": 1246
+    },
+    "evals/eval-run-ledger.md": {
+      "sha256": "68460f148a879bf0275e8bd762bc02840c673c25e4b743bd8ee760ad7c806d91",
+      "size": 6000
+    },
+    "evals/evals.json": {
+      "sha256": "ff803c002c63b87e2ded30880f82ae7067eef0f67fa8da878ae3edf0c736bb8f",
+      "size": 188872
+    },
+    "evals/generation-benchmark.json": {
+      "sha256": "33971ae53920a342b2d94a277a71ba19fcee82637233feb76d4defdca1772340",
+      "size": 1185
+    },
+    "evals/multilingual-native-review-evidence.json": {
+      "sha256": "da02a6262de847bc894a850238f219e5629bcdcb0f4a21efcde2f2fb0255fe94",
+      "size": 357
+    },
+    "evals/multilingual-native-review.json": {
+      "sha256": "806afdcd4762874145dec8cabaf76592b148bd4057bd52448788045c43f601dc",
+      "size": 27632
+    },
+    "evals/prompt-architecture-stress.json": {
+      "sha256": "9e08518186aad4b27371ea9384a26bc7d4a485d8742fc99cb593ad38e1fa9d0d",
+      "size": 39062
+    },
+    "examples/golden-prompts/compact-i2v.md": {
+      "sha256": "49c04f8d2b21f28a76a365ec893ef0e5b3ba4abe0dd3113b8e8750777e32068e",
+      "size": 937
+    },
+    "examples/golden-prompts/continuation-observed-deviation.md": {
+      "sha256": "e8a37e335679e6ea08d53d0f65716384318d7991b431292c0dd5767c86b999d4",
+      "size": 1070
+    },
+    "examples/golden-prompts/dense-2d-storyboard.md": {
+      "sha256": "79e589d38f4a47cb829d60702bd92f352a24198c0fd89c9080fef34e0816acf1",
+      "size": 1114
+    },
+    "examples/golden-prompts/first-last-frame-transition.md": {
+      "sha256": "8ec9e990870e2de114e9b817bfb58a9103c9543122073602dac051b2be656c92",
+      "size": 1000
+    },
+    "examples/golden-prompts/phased-single-take.md": {
+      "sha256": "d1fe848f8dc83933693b5f57fa8a6ede7eef6651cfec0770fb34e210591246d3",
+      "size": 965
+    },
+    "examples/golden-prompts/r2v-role-isolation.md": {
+      "sha256": "a36c0bc3129ee86b4ac0373fc14d716c599e75675ba495b31008a86d72c65cfa",
+      "size": 1089
+    },
+    "examples/golden-prompts/sequence-continuation.md": {
+      "sha256": "aa45fb69b7c5f1c3ce0fb30a73156f1fecfda080d3df38c456b7030ff79d9b4e",
+      "size": 1177
+    },
+    "examples/golden-prompts/video-edit-one-layer.md": {
+      "sha256": "6370dddb7de16341f6ddc5f853faed0b8ea96ed9e9053f9dae8a7f571f477b53",
+      "size": 946
+    },
+    "examples/sequence-airport-arrival/clip-01-contract.json": {
+      "sha256": "9452c8c1cbe74a195014dbebf3ca5aba253f33adc8f4476959aacb9e085a72c6",
+      "size": 3426
+    },
+    "examples/sequence-airport-arrival/clip-01-prompt.md": {
+      "sha256": "8747f760d2fac3ca3516998037120bca31d63bebe2570ba092133b2236d5d55b",
+      "size": 873
+    },
+    "examples/sequence-airport-arrival/clip-01-take-review.json": {
+      "sha256": "98f8c39a1350865c49dcc6cc3c06771aa98a50a15b1028da650ffada4206892d",
+      "size": 786
+    },
+    "examples/sequence-airport-arrival/clip-02-continuation-contract.json": {
+      "sha256": "0a1c6d1f46a94d8ae10b8343433d53dddfd31a9f9dbfbc9902cc832b7352212d",
+      "size": 3515
+    },
+    "examples/sequence-airport-arrival/clip-02-prompt.md": {
+      "sha256": "c2c404ad4d86811297d0c1c0d9e03ed30385e73f05bba83ede2658b1cd38f945",
+      "size": 1036
+    },
+    "examples/sequence-airport-arrival/project-state.json": {
+      "sha256": "ec9ef87a0679509bb7b28b52b82731fe60daa94c76f7fca97a65557515222ca2",
+      "size": 23848
+    },
+    "examples/sequence-airport-arrival/sequence-plan.md": {
+      "sha256": "4a2fb9c94f6beeeca370394264d3aec0e807030e55c037df0fea3bd41e03c11f",
+      "size": 4017
+    },
+    "examples/sequence-mixed-lane/project-state.json": {
+      "sha256": "30f5fd43e28a5637ac297883d4de818af465478691bf8f9decef62db0cb78482",
+      "size": 13248
+    },
+    "examples/sequence-observed-deviation/project-state-after.json": {
+      "sha256": "f1aa951c50a6524b481b8b49c9e75b4cff50a5598edb46ff868a21c2181b84ee",
+      "size": 10426
+    },
+    "examples/sequence-observed-deviation/project-state-before.json": {
+      "sha256": "ba4ea2b45261344fe9f5b252485b82ecb20345f5864d26f3228f5787d138e5d9",
+      "size": 13149
+    },
+    "examples/sequence-observed-deviation/take-review.json": {
+      "sha256": "df61ebf2ff93d205803500038c92d79413868d121b0f558cd5564f7ba9e7f1f7",
+      "size": 717
+    },
+    "examples/standalone-clip/project-state.json": {
+      "sha256": "0e14c926f6ce8645208588eb8539b225c713f2ab65bb39d09461d824e463391d",
+      "size": 3191
+    },
+    "examples/standalone-clip/prompt.md": {
+      "sha256": "beb2b55de1739f391f20f94c4e65dadc992e16b114fc59a8809f1dc6358d7700",
+      "size": 338
+    },
+    "references/2d-anime-grammar.md": {
+      "sha256": "6a760b840f6d6c5ac56e88f8df8c13c42080aee06e355134b1c84fe1c40a7376",
+      "size": 3917
+    },
+    "references/agent-compatibility.md": {
+      "sha256": "015e969f74e91ac9d0ac76f3d210ee7711188ed9ebedffbbefdef2d6d817da9c",
+      "size": 15003
+    },
+    "references/allocation-model.md": {
+      "sha256": "20b9d548ea1e6301f6e2568ee9f0d40907857e64b96ed9995c6943dd8ac049a2",
+      "size": 3545
+    },
+    "references/anti-slop-lexicon.md": {
+      "sha256": "bec7c0f316a25bdcc8969738c609edc0629bb8cc9e090b7a2453be76e2fd5c7a",
+      "size": 7114
+    },
+    "references/api-status.md": {
+      "sha256": "bc77894c1eea72441d5ecefab724debc7c3ab1f600a6a7e25f93bec7e2b91995",
+      "size": 23096
+    },
+    "references/api-workflow.md": {
+      "sha256": "64a58d38d5b74bb4882abae9acdc2227a4abdd561cc50dafad2fb26a90a00888",
+      "size": 9253
+    },
+    "references/aspect-ratio-delivery.md": {
+      "sha256": "546cd0a2bbff1370073237595dc73427188e0d3cda88d5b958a9a5ccda0ccd8a",
+      "size": 2627
+    },
+    "references/audio-guide.md": {
+      "sha256": "522bc70b4e79279896dc23097d37e9aac23b23737667b4ad32c87718ee8cb599",
+      "size": 7817
+    },
+    "references/audio-post-delivery.md": {
+      "sha256": "b0b4fd9767be70b3348a13885f65eab6a6d43401006995d73688008cc890859e",
+      "size": 2281
+    },
+    "references/capability-map.md": {
+      "sha256": "cd61dd18bcad42e0e5fd86ccd0f41e8edc9ff7977616ff4be54eeb7ff198e68b",
+      "size": 6497
+    },
+    "references/cinematography-shot-language.md": {
+      "sha256": "3aa8e1655383d22d73ed8fbf3eb66256f54d568d4f25bf813afd95e20a91a38e",
+      "size": 5855
+    },
+    "references/color-pipeline-aces.md": {
+      "sha256": "b2cf31d028c3f8dccecf7bc91ee7b56b590be310742dccd74093673b6ee0ee9f",
+      "size": 3087
+    },
+    "references/community-source-methodology.md": {
+      "sha256": "8bb558262afe478edcfa584d6aadf7e2b1c23e59b9e63b963add69ce241fee81",
+      "size": 2442
+    },
+    "references/continuation-handoff.md": {
+      "sha256": "ea7178642162eda4d8695830a613e13c2f6d4f11706a61512e86a6ce18d2c37d",
+      "size": 7848
+    },
+    "references/continuity-example-cards.md": {
+      "sha256": "361ebda9e6294759e01a1a6f96e771d6124ece2c9087bd0d51e40e723724d24e",
+      "size": 7888
+    },
+    "references/continuity-qc.md": {
+      "sha256": "1199e0233292743e3d36298d371b977dba1cbd8c2859dae93cdd955198516150",
+      "size": 1215
+    },
+    "references/delivery-qc.md": {
+      "sha256": "9ae777ed06ab7717549383bd11ef57d5dbedf54e6e696eb6eb18d848eec7c282",
+      "size": 2747
+    },
+    "references/dense-storyboard-mode.md": {
+      "sha256": "56f5fb1ee320336d3eb09dc0792dcd4d643a048c4efd72dae19ecf92b8556d43",
+      "size": 1445
+    },
+    "references/direct-for-the-model.md": {
+      "sha256": "f7358e82eb6f8bfd7ec653bc3e537d0a3dfbb9f01277c3f79f786f1cd017d942",
+      "size": 9598
+    },
+    "references/directing-engine-genre-library.md": {
+      "sha256": "4b6fea6102d764e068973dd6a256c0fef74dcd1d1df7ecf807e6d30570b242e9",
+      "size": 54643
+    },
+    "references/directing-engine.md": {
+      "sha256": "dcbe307516ab76601abaa1ed5ef6558ac42fedec506e769f73094364c77c6999",
+      "size": 25796
+    },
+    "references/directors-read.md": {
+      "sha256": "f7021ac0e01d5c570fa262f9c3970272377eb775dc7c0616e6e8b6af2859071d",
+      "size": 12070
+    },
+    "references/eval-rubric.md": {
+      "sha256": "8cae2aeba514440734b4f30ab6f9a3d7755844a39708f0d23aef8c53e07cda3e",
+      "size": 9450
+    },
+    "references/event-density.md": {
+      "sha256": "cda274d6fe4ead2d834063a0b96641ad640c6671d8787aaed111a2af5cc2e244",
+      "size": 2370
+    },
+    "references/example-card-format.md": {
+      "sha256": "0d85937a39c1143ee8c5f7a133559cc87e0f4dfd608e141f78163a2175488dc2",
+      "size": 5241
+    },
+    "references/examples-by-mode.md": {
+      "sha256": "96c10252fb7fb3a0f149adba5a47f7d254a41e39e5a10d99f3981028795b024d",
+      "size": 8058
+    },
+    "references/failure-atlas.md": {
+      "sha256": "b431f40ad3d2111df9c35139d03147d4fadc237a3df64d822b335e3fe9cf4de0",
+      "size": 4193
+    },
+    "references/field-observed-tips.md": {
+      "sha256": "7c26c2171d3200d80b977af3ea3a111cf7aab4159396588d6abc8937096b13ee",
+      "size": 3019
+    },
+    "references/filter-vocab.md": {
+      "sha256": "1f10bd00d010f19b4c318164324c483c3ccaf4662417d3260712a0c439fc7217",
+      "size": 3452
+    },
+    "references/first-last-frame-guide.md": {
+      "sha256": "693ad681dda2c7561f621bd9880bcdf35c1fc4526d2f8350f61f88e639b5a215",
+      "size": 5249
+    },
+    "references/frontend-design-system.md": {
+      "sha256": "12e77cab8e1e29a30ec47a10c22162aaf674421470b4befa83befedd3311c196",
+      "size": 9610
+    },
+    "references/genre-guides.md": {
+      "sha256": "5c30b790dfac5c3907c2759571c17af51dd48ce94e4e5a3c6b4071c204018dff",
+      "size": 2603
+    },
+    "references/i2v-guide.md": {
+      "sha256": "f006ba4ee7ac4f99fe30317e4711f863aa5f3ee88f1e9c4231285ce640f46dbe",
+      "size": 2714
+    },
+    "references/intent-vs-precision.md": {
+      "sha256": "0a418f94d33dddda16e3961319d810fb7eb4b39efb82387ab81404f2a5f272f2",
+      "size": 650
+    },
+    "references/interview-starters.md": {
+      "sha256": "f555b1ef7c13115d54721244feb766f035b436227b689b8837818130469499bc",
+      "size": 5635
+    },
+    "references/json-schema.md": {
+      "sha256": "d937777e1315e808b188ff69e0a0749175f1ad43deffb7a6d85f7d826b50ac64",
+      "size": 3256
+    },
+    "references/model-mechanics.md": {
+      "sha256": "d924b1197ec2ad0808235e81a4011c6d7569e5ced5675a77da899375e0fbfb19",
+      "size": 5152
+    },
+    "references/model-name-map.md": {
+      "sha256": "815cce6d46eecaec2217d7c76be5cf737db0520575f5d3a7f562d1d5749850ef",
+      "size": 9146
+    },
+    "references/moderation-prescreen.md": {
+      "sha256": "469f2bd3495d49e55bc43490e21750a4243445a5531d304786e4b3070a760a94",
+      "size": 7583
+    },
+    "references/multilingual-community-examples.md": {
+      "sha256": "5909c38b0b3b1c7acbe0bd35f523e74ae77cc1bd18c96f1732f6a17e9575036b",
+      "size": 11429
+    },
+    "references/multilingual-native-review.md": {
+      "sha256": "214fb2dcf10ef24195ee16873f43b86b6edccf9bbda0c868b65f3bfeafec2e16",
+      "size": 16615
+    },
+    "references/multishot-grammar.md": {
+      "sha256": "6d48c37565c3d51bc4ebd7a3d57330d8648080f38cf4e690b2af27832808e8dc",
+      "size": 15052
+    },
+    "references/performance-example-cards.md": {
+      "sha256": "cfff6b7922690d23c3d3090a1e14aa4ce32fe862c54ab731a5db6a66a19614f6",
+      "size": 7495
+    },
+    "references/platform-constraints.md": {
+      "sha256": "955b02a35b090cbec2358bc4e7ce19eac5233c9857f2edaff0c32dd33c7ff8b6",
+      "size": 1824
+    },
+    "references/platform-surface-matrix.md": {
+      "sha256": "44043bf4e933524e963ab4e0d19f05ae356e74d3995af0a9f6af61542e628ff9",
+      "size": 10500
+    },
+    "references/pro-filmmaking-standards.md": {
+      "sha256": "cf66cdff1438ddd59e0d361e41685196964018f47fd6d7da3fbb3e09fd2f9a90",
+      "size": 4441
+    },
+    "references/product-example-cards.md": {
+      "sha256": "1044d057c4cb3ba3af3487733f353312b6f67d279ff40668efe5e06267ae72ba",
+      "size": 6530
+    },
+    "references/progressive-disclosure.md": {
+      "sha256": "a882215249063b94d68dc8fb9ebe29936e43d133974d7c284d9af7c6c8ff47de",
+      "size": 3652
+    },
+    "references/prompt-compiler.md": {
+      "sha256": "e007ec58fd6499c1fb84479f1f7e025a7a7cef5397110b18eee576f70f2480ef",
+      "size": 8960
+    },
+    "references/prompt-examples.md": {
+      "sha256": "74a718e2123c3cd11ed596307aa4fb679fb859aef13d17b3db2e055a47ce6718",
+      "size": 14445
+    },
+    "references/quick-ref.md": {
+      "sha256": "2bedb30e9da778f8bf557e92024bc14ac2df6f44711cb32ccc86d4ecc125c3fb",
+      "size": 2465
+    },
+    "references/reference-transfer-contract.md": {
+      "sha256": "f8523b810f7be505c6cd978cdafe2313f8ab5a179ad9b707c401d2dfc1f4f252",
+      "size": 1887
+    },
+    "references/reference-workflow.md": {
+      "sha256": "466d83616b9082c45eb14de8f4ed70ac1ef72e04d8a00257814bdaf491479adb",
+      "size": 6165
+    },
+    "references/research-2026-05-30.md": {
+      "sha256": "569283eb27de4fb86320fe524d861ad3c9d32578b08879a859520fe389f34df5",
+      "size": 6551
+    },
+    "references/retake-protocol.md": {
+      "sha256": "935f1e644606583a705427b17b4562fa5a8349543724c08eeee4d9b713c05877",
+      "size": 9164
+    },
+    "references/sequence-project-state.md": {
+      "sha256": "5420106f7e5f7b31ce9cbc0228ea8284ea003846e1fb2b3438334444c6081ad9",
+      "size": 19964
+    },
+    "references/sequence-worked-trace.md": {
+      "sha256": "1cda41401098281236ab74398455ca05b751ca5f9c7bb6b7faf4190a3dd1d3e0",
+      "size": 7243
+    },
+    "references/shot-list-continuity.md": {
+      "sha256": "b5198924d1b1f236860be3568c9e55069f0da4f4a80b3ba3f03e6dc9a8899061",
+      "size": 4116
+    },
+    "references/shot-table.md": {
+      "sha256": "c614f8b5ab86e5f30320d994cc8c8ee62317bcfdcc890b1afe0650e33cca2e50",
+      "size": 6426
+    },
+    "references/source-registry.md": {
+      "sha256": "065a2bcfa3dff7e7473668e1e6ad1d100348b881843f50302e4534de335cf57a",
+      "size": 21274
+    },
+    "references/storytelling-framework.md": {
+      "sha256": "658099155a600b755da852db13aef7bcd295f1e09f804f041f7f102f8a3398b1",
+      "size": 2412
+    },
+    "references/subtitles-localization.md": {
+      "sha256": "25d63be0c09cc28841503a02c0077d4db20c8fbdd38306d32b1d4061c326e04b",
+      "size": 2974
+    },
+    "references/surface-prompt-profiles.md": {
+      "sha256": "6a0067ec6b2f2d9bfc0ebd4f2a809128a4cb7ce857b19f2382c5e1efd836d835",
+      "size": 3394
+    },
+    "references/sync-budget-protocol.md": {
+      "sha256": "ab8175c9d9d12571db824f59ef8aead1b5878a0dd296ac7ad46d3ab19ac788d2",
+      "size": 4504
+    },
+    "references/vocab/en.md": {
+      "sha256": "4dfecdd3483eedc068c1fefdb0b181b7a84222a9aba147d281fdfef1566a825c",
+      "size": 8523
+    },
+    "references/vocab/es.md": {
+      "sha256": "db916fdf981ceef8bd1ed83d22f304a5cd1eff356d3258aefaa3956ad9479a88",
+      "size": 7520
+    },
+    "references/vocab/ja.md": {
+      "sha256": "1448b580f87c698831ef9b7bee876028249b4209ac0dfc9f7b19922bd43a8c9d",
+      "size": 15464
+    },
+    "references/vocab/ko.md": {
+      "sha256": "aea14ada62aa0943c2661c6553e5e27adef59c092a2cfc58a176cd19439f02db",
+      "size": 15251
+    },
+    "references/vocab/ru.md": {
+      "sha256": "cc1c17311aabdf9353abab8997395382b403b74a592adf2062b2095a86d64f15",
+      "size": 9652
+    },
+    "references/vocab/zh.md": {
+      "sha256": "73fbb31a934cf0a60d62111523630263d62e5592f81c7c2116a7a0e15a4314e7",
+      "size": 17148
+    },
+    "requirements-validation.lock": {
+      "sha256": "5c417cdc3968bc785c5d33b601f49ce6841e012b10c4425d2cb2b6dd4b617a5c",
+      "size": 2774
+    },
+    "schemas/clip-contract.schema.json": {
+      "sha256": "b9df0313678dc7bee2440b609df35cea5b8dbdfbe4f1f07b56d444da74b79175",
+      "size": 10614
+    },
+    "schemas/generation-run.schema.json": {
+      "sha256": "b48cc7c2cd7f30406c80561a93d3a28449834ccbf2374546013edb2a0fedb92e",
+      "size": 936
+    },
+    "schemas/project-state.schema.json": {
+      "sha256": "42285f2b21e57cac0f52d4853816ff5fdebeae6856b72623dd959230067e554f",
+      "size": 15883
+    },
+    "schemas/prompt-spec.schema.json": {
+      "sha256": "b7fea59647e2c6b5739f8938896bfe64e6a6b344a55286b064795f678d74c102",
+      "size": 1387
+    },
+    "schemas/take-review.schema.json": {
+      "sha256": "426ba4b52a23bdd94d95c084089be050b40ae0ed67ecf540dd99c4ed6f0b57c8",
+      "size": 1987
+    },
+    "scripts/behavior_contract_check.py": {
+      "sha256": "881a45f700f424f1f50a9e7dada1bf1fe38b6973e2495ac0d3cea4bbde1d6270",
+      "size": 24955
+    },
+    "scripts/build_hero.py": {
+      "sha256": "0f73e46af7375f2f2d09001673b77cb53baea31744a9bacae35dd07dd9d770fa",
+      "size": 11846
+    },
+    "scripts/build_masthead_outlines.py": {
+      "sha256": "aeef04cfd09b55f8a04d9079309976325efbd6bd3b3128079543526dbb4955dd",
+      "size": 66894
+    },
+    "scripts/content_audit.py": {
+      "sha256": "bab9ec0578aaafbe77d4c1a9b87d46bfce9d4d53622b3b1940876db83b3e35c3",
+      "size": 3507
+    },
+    "scripts/continuity_chain_check.py": {
+      "sha256": "9c3931912659fb379b0222e0d1819bbd621bcb3d14f231e96fa9a01694daee83",
+      "size": 101560
+    },
+    "scripts/design_audit.py": {
+      "sha256": "914a65850636e416477fedd4a9a2168d2b2af12057586dc0ffa9d67796bddd93",
+      "size": 11919
+    },
+    "scripts/eval_schema_check.py": {
+      "sha256": "ea9cbd07dc9fe7efcec348de2b9ce320a6b49698bebbbeab533a550fe3f508f2",
+      "size": 7573
+    },
+    "scripts/extract_last_frame.py": {
+      "sha256": "410ab76ebf2cda69521a4dac384672116ea3ab79bee91bda95649803dd1d083f",
+      "size": 133487
+    },
+    "scripts/generation_run_check.py": {
+      "sha256": "1f6b5e13a1a52b199f4236515ee20bd8a0ef9b09edf590a37c1298b57c6485b1",
+      "size": 3058
+    },
+    "scripts/install_codex_skill.py": {
+      "sha256": "b27a9eaa2bd3ef99f6443dde9a54a9a6c60c904e59ac7dea5dc06de88f8d524d",
+      "size": 247347
+    },
+    "scripts/lineage_contract.py": {
+      "sha256": "635f9bb5b1c81351626e74399c95b23ed26aa75374a3f639734be2a76b8f544d",
+      "size": 38994
+    },
+    "scripts/project_state_check.py": {
+      "sha256": "16f776ddead497de2e2390666cb1d096e5ab9e916240ee5d6aff30c6523f73eb",
+      "size": 118151
+    },
+    "scripts/prompt_architecture_stress.py": {
+      "sha256": "c563373f59b39a1c28f6ab81c985d5516e5f3e610d64f9c9e09a17dd1e5872c8",
+      "size": 230192
+    },
+    "scripts/prompt_lint.py": {
+      "sha256": "3f5d404ae5a4252d9733698adeef0304e56981286e314f8bca19522d4d5a0559",
+      "size": 47256
+    },
+    "scripts/schema_check.py": {
+      "sha256": "ad19f35ae2e3bbc52ebd8ddd025455ec3a018fb092df5cb49dd4ce39ff33a97e",
+      "size": 17932
+    },
+    "scripts/sequence_eval_check.py": {
+      "sha256": "11b9b9554fab39c1f64beaf9f842da396bfa4ec90bd9bb4972f56debce748dd2",
+      "size": 4351
+    },
+    "scripts/shot_table_check.py": {
+      "sha256": "92927b47d2a487300f645f512004a6cdd4b6217c99ad68156fe17e583f02ccb7",
+      "size": 3963
+    },
+    "scripts/source_registry_check.py": {
+      "sha256": "01dfb35641d1aed5f9995851893211f6148237129790bc93b5f1f52e756787cc",
+      "size": 12936
+    },
+    "scripts/strict_json.py": {
+      "sha256": "c21997dee29baff7f0362040d896e312cc917703e1ebb76bba89be34d908bbf1",
+      "size": 30195
+    },
+    "scripts/validate_skills.py": {
+      "sha256": "d540bb5c8d69e5ca28ab4f8ea316aecc9d8f48a9096137ee137e41ec1b714961",
+      "size": 37250
+    },
+    "scripts/vocab_schema_check.py": {
+      "sha256": "93acb3ab1149eee3dd3e6332587bc5cb5749f7a13629cc36eaf565207b702a34",
+      "size": 81038
+    },
+    "skills/seedance-antislop/SKILL.md": {
+      "sha256": "9db9204157227e3184cc8516c87046e4a37df9d75be894c1e1c1aa8978cf6146",
+      "size": 4300
+    },
+    "skills/seedance-audio/SKILL.md": {
+      "sha256": "f163f7bf6f5b075800bef2e03cf313ee9aee9d3c23f135a630bafc8ed92c1245",
+      "size": 5372
+    },
+    "skills/seedance-camera/SKILL.md": {
+      "sha256": "1fbc80be6006ba2b9d9b96ba045688e9a8a710d112a93ccd01795ddb619d2628",
+      "size": 5157
+    },
+    "skills/seedance-characters/SKILL.md": {
+      "sha256": "f524d24f8f44f0431f8bc553fc7737c6c7bbf5a3d2c17d97016d9f8b0cec9424",
+      "size": 4861
+    },
+    "skills/seedance-continuation/SKILL.md": {
+      "sha256": "0b9e354918e555495de5ae720c8fadc6f584681e51efca64a127824ce52005bc",
+      "size": 8161
+    },
+    "skills/seedance-copyright/SKILL.md": {
+      "sha256": "00f62eab53c7c1a20df7431b2839d74615c57bc732eafa0aadfae4ee72982afe",
+      "size": 3719
+    },
+    "skills/seedance-examples-ja/SKILL.md": {
+      "sha256": "f1ac8498697f40f9a4b78401868bc13a9b3154864f72cfa27c9e357db43618a0",
+      "size": 4563
+    },
+    "skills/seedance-examples-ko/SKILL.md": {
+      "sha256": "19633d37bb759c8493d976744906ba2288351718f7fd1c064d3c52d87bdbf919",
+      "size": 4598
+    },
+    "skills/seedance-examples-zh/SKILL.md": {
+      "sha256": "51ddd2139b43ad3a272a2ac6347645c98dedf5f48b944f1a741d3e25380fcef2",
+      "size": 5084
+    },
+    "skills/seedance-filter/SKILL.md": {
+      "sha256": "8a510514cd44b405fe81794d068120361304bbd565a8d1df37fcd0c6b312e3e5",
+      "size": 4546
+    },
+    "skills/seedance-interview-short/SKILL.md": {
+      "sha256": "0a8d99ed110354c9bc6c027e6c55c4064f78712131c2a2e4e6ff57d4573f16f7",
+      "size": 6488
+    },
+    "skills/seedance-interview/SKILL.md": {
+      "sha256": "a408e03d7a112884d41950ef93a8cbb6001b92179bf159cfd5c000a1921bb6b5",
+      "size": 15421
+    },
+    "skills/seedance-lighting/SKILL.md": {
+      "sha256": "def5981f5d9aa752720e07cc6125425139c29945c82988b082287e273e29001b",
+      "size": 4409
+    },
+    "skills/seedance-motion/SKILL.md": {
+      "sha256": "b0c9d4bc9b84f34be6180dc4ecdf28725244d0879b309bbd5bc0f24508bf1a05",
+      "size": 5326
+    },
+    "skills/seedance-pipeline/SKILL.md": {
+      "sha256": "d54099c3c65c97fdc7f37346a4298078cd7dc7b0c07038ed2cd47cd2af85c283",
+      "size": 3660
+    },
+    "skills/seedance-prompt-short/SKILL.md": {
+      "sha256": "b343aba1f8e85696cfc36335da149ab4c373a52580c062361be57a6a2df856c2",
+      "size": 5592
+    },
+    "skills/seedance-prompt/SKILL.md": {
+      "sha256": "3ae6968f00c6c9a9b07dd90c2e9853af4dc568bb5fd5c4840b59c92153104cfb",
+      "size": 15096
+    },
+    "skills/seedance-recipes/SKILL.md": {
+      "sha256": "636549cb16360b99191a3d327aefcb5fc0471c37b65b97719cb89fce14763ee9",
+      "size": 6142
+    },
+    "skills/seedance-sequence/SKILL.md": {
+      "sha256": "8c8e85ee081ee9cbe73c46a7b0dedd6cf5b7a6627fcdde498f9a46c2b58592ed",
+      "size": 10244
+    },
+    "skills/seedance-style/SKILL.md": {
+      "sha256": "da9ca0c0755216f3b0cbfcf796b3c0b31a3d9df85c9ffd614657d658bedcd3e8",
+      "size": 4964
+    },
+    "skills/seedance-troubleshoot/SKILL.md": {
+      "sha256": "05d90729cc530c7c98be99f5664a8b9ae208c034f98dfe83bc7b6227c36b24a8",
+      "size": 7550
+    },
+    "skills/seedance-vfx/SKILL.md": {
+      "sha256": "dc4d91d1acd543a4f33ea2b938a0fd11db7be8950c8e9e7287667f09b4506979",
+      "size": 3248
+    },
+    "skills/seedance-vocab-en/SKILL.md": {
+      "sha256": "7abdd2b47a878ad1be694f300f01af1217ab41e6a6877c2f6e19d7528744a765",
+      "size": 4971
+    },
+    "skills/seedance-vocab-es/SKILL.md": {
+      "sha256": "4f073d7e7feebcb9605dbc9a6171f3e0c8671ade63628ed49be8e4024d1a6741",
+      "size": 4475
+    },
+    "skills/seedance-vocab-ja/SKILL.md": {
+      "sha256": "28e87b7ed8971df6acabe1348a2a8d0fe9a7123f518b48a4fabdce14cc3a180b",
+      "size": 4114
+    },
+    "skills/seedance-vocab-ko/SKILL.md": {
+      "sha256": "28033f3fd73f8ebf2bdfcbc7623d5af18c1a1d5cac775e2457ae067f203f07ec",
+      "size": 4116
+    },
+    "skills/seedance-vocab-ru/SKILL.md": {
+      "sha256": "074d483a42c7a1094b2c9e49c2fb44d694fd1e2405f9a9dd9b92d8ca659bd437",
+      "size": 5958
+    },
+    "skills/seedance-vocab-zh/SKILL.md": {
+      "sha256": "f6568a49e0c0170dd94381ffe683b497c038bd0d499850e2fb165ce2d572506d",
+      "size": 4556
+    },
+    "validation/authoring-state-provenance-ledger.json": {
+      "sha256": "6c2d9a671d50a9c6c55178e39ea9b1ae355d02a78c075a512d03ed157d839b40",
+      "size": 596
+    },
+    "validation/fixtures/directors-read-cases.json": {
+      "sha256": "f1d006dc579c804dde9211282beb6467a620af642f8b139ad887a7519fd8f4e7",
+      "size": 8047
+    },
+    "validation/fixtures/generation-run.valid.json": {
+      "sha256": "996e38d1d93ebd01b0afe5935e2cd7f24ec1dde0a5e9080ca22cf9bf491e8bd9",
+      "size": 472
+    },
+    "validation/fixtures/prompt-spec.valid.json": {
+      "sha256": "9ca43416869c6e591b38d2eda703b0301d74453801f0915083063de0497b7ffa",
+      "size": 1121
+    },
+    "validation/install-payload.txt": {
+      "sha256": "a2435b77b3ef7c3a9d71406b5a63e30a9cfad52db82dbf29b6caf5859670628c",
+      "size": 6914
+    },
+    "validation/schema-instances.json": {
+      "sha256": "843c8fd2155a0b789290380c9a8517fae0abfb1783b92a9468f81f5e0423e3db",
+      "size": 1116
+    }
+  },
+  "format_version": 2,
+  "payload_manifest_path": "validation/install-payload.txt",
+  "payload_manifest_sha256": "a2435b77b3ef7c3a9d71406b5a63e30a9cfad52db82dbf29b6caf5859670628c",
+  "skill_name": "seedance-20"
+}
